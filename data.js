@@ -304,12 +304,12 @@ window.WORK_INDEX = [
   "page": ""
  },
  {
-  "title": "HCP: one volume, four systems",
+  "title": "Facade studies: one volume, four systems",
   "type": "experiment",
   "with": "Own",
   "place": "Geometric study",
   "year": "2023",
-  "page": "hcp"
+  "page": "facades"
  },
  {
   "title": "Punta Sol master plan",

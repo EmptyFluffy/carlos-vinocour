@@ -11,7 +11,7 @@ const asset = name => `assets/${name}.webp`;
 const footer = () => `<footer class="footer"><span>Carlos Vinocour · Architecture, computation &amp; ongoing studies</span><a href="mailto:vinocouralvarez@gmail.com">Start a conversation ↗</a></footer>`;
 // 2026-11-02 (Carlos): the name alone, small, over the image; white, or lilac where the cover is light under it (assets/sizes.js)
 const cardName = p => p.title.split(' / ')[0];
-const card = p => { const light=((window.SIZES||{})[asset(p.cover)]||[])[2]>.7; /* .7: Porous field (.63) and Capital Group's marble (.69) read better in white (Carlos) */ return `<a class="card ${p.id}${light?' light':''}" href="#/work/${p.id}" aria-label="${esc(cardName(p))}"><div class="visual"><img src="${asset(p.cover)}" alt="${esc(p.alt)}" loading="lazy" width="600" height="430"></div><h2 class="card-name">${esc(cardName(p))}</h2></a>`; };
+const card = p => { const light=((window.SIZES||{})[asset(p.cover)]||[])[2]>.7; /* .7: Porous field (.63) and Capital Group's marble (.69) read better in white (Carlos) */ return `<a class="card ${p.id}${light?' light':''}" href="#/work/${p.id}" aria-label="${esc(cardName(p))}"><div class="visual">${p.coverStill?`<picture><source srcset="${asset(p.coverStill)}" media="(prefers-reduced-motion: reduce)">`:''}<img src="${asset(p.cover)}" alt="${esc(p.alt)}" loading="lazy" width="600" height="430">${p.coverStill?'</picture>':''}</div><h2 class="card-name">${esc(cardName(p))}</h2></a>`; };
 function home(filter='all') {
   const selected = filter === 'all' ? projects : projects.filter(p=>p.tags.includes(filter));
   const headings = {all:'A collection of spaces, systems,<br>and things in progress.',architecture:'Spaces, landscapes,<br>and the work between.',computation:'Rules, material,<br>and emerging forms.'};
@@ -25,9 +25,10 @@ function figure(name,caption,wide=false) {
   return `<figure class="${wide?'wide':''}"><button class="image-button" data-image="${asset(name)}" data-caption="${esc(caption)}" aria-label="Enlarge image: ${esc(caption)}"><img src="${asset(name)}" alt="${esc(caption)}" loading="lazy"></button><figcaption class="image-caption">${esc(caption)}</figcaption></figure>`;
 }
 function project(id) {
+  if(id==='hcp'){location.replace('#/work/facades');return;}   // renamed 2026-11-02 (Carlos: not for HCP, an experiment)
   const p=projects.find(p=>p.id===id);if(!p)return missing();
   if(id==='surface'){content.innerHTML=renderSurface()+footer();document.title='Porous field · Carlos Vinocour';initSurface();return;}
-  if(id==='hcp'){content.innerHTML=window.renderHCP()+footer();document.title='HCP / one volume, four systems · Carlos Vinocour';window.initHCP();return;}
+  if(id==='facades'){content.innerHTML=window.renderHCP()+footer();document.title='Facade studies · Carlos Vinocour';window.initHCP();return;}
   const next=projects[(projects.indexOf(p)+1)%projects.length];
   if(window.RENDER&&window.RENDER[id]){content.innerHTML=window.RENDER[id](p,next)+footer();document.title=`${p.title} · Carlos Vinocour`;return;}
   content.innerHTML=`<a class="back" href="#/">← Selected work</a><header class="project-header"><p class="eyebrow">${esc(p.category)}</p><h1>${esc(p.title)}</h1><p class="lede">${esc(p.intro)}</p><dl class="metadata"><div><dt>Place</dt><dd>${esc(p.place)}</dd></div><div><dt>Context</dt><dd>${esc(p.context)}</dd></div><div><dt>Contribution</dt><dd>${esc(p.role)}</dd></div></dl></header><div class="project-hero">${figure(p.cover,p.alt)}</div><section class="project-body"><h2>A closer look</h2><p>${esc(p.body)}</p><p>${esc(p.body2)}</p></section><div class="project-images">${p.images.map(i=>figure(i[0],i[1],i[2]==='wide')).join('')}</div><p class="image-caption" style="margin-top:35px;max-width:680px">${esc(p.credit)}</p><a class="next-project" href="#/work/${next.id}"><span><small>Next in the collection</small>${esc(next.title)}</span><span aria-hidden="true">→</span></a>${footer()}`;

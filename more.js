@@ -242,12 +242,11 @@ const LAYOUTS = {
     blocks: p => [
       hero('stair/perspective', 'The stair from above.'),
       side(closer(p), 'stair/perspective-2', 'The run between floors.'),
-      sheet('The stair in plan', [['stair/plan-35', '35th floor'], ['stair/plan-34', '34th floor']], { cols: 2 }),
+      sheet('The stair in plan', [['stair/plan-35-duo', '35th floor'], ['stair/plan-34-duo', '34th floor']], { cols: 2 }),   // duotone as in the C1 (tools/site_duotone.py)
       text({ p: ['The stair stands in the same place on every floor, beside the reception and the cafe, so each floor reads as a landing.'] }),
       row([['stair/interior', 'The stair on the 34th floor. Rendering: Gensler.'], ['stair/reception-34', 'The 34th floor reception. Rendering: Gensler.']]),
       sheet('From sketch to steel', [['stair/sketch-1-k', 'Concept sketch'], ['stair/sketch-2-k', 'The landing'], ['stair/rhino-k', 'Modelled in Rhino'], ['stair/rhino-setout-k', 'The elliptical run']], { cols: 4 }),
       row([['stair/view-1', 'Through the three floors.'], ['stair/view-2', 'Another view.']], { max: 760 }),
-      sheet('Construction administration', [['stair/dims-k', 'The fabricator\'s set-out against the architectural dimensions'], ['stair/drawings', 'Guardrail at the landings, reviewed with the fabricator']], { cols: 2 }),
     ],
   },
   tamarindo: {
@@ -262,7 +261,7 @@ const LAYOUTS = {
         ['tamarindo/l-06', 'Open spaces along the water'], ['tamarindo/l-07', 'Blocks by type'], ['tamarindo/l-08', 'Built volumes'], ['tamarindo/l-09', 'Volumes against the runoff']], { cols: 4, dark: true }),
       sheet('The street network', [['tamarindo/connectivity', 'Connectivity'], ['tamarindo/integration', 'Integration']], { cols: 2, dark: true }),
       side({ h: 'The building closes the cycle.', html: '<ol class="b-steps-list"><li>A green roof catches the rain, slows it and filters it.</li><li>Steel downpipes in the columns carry it to eight 50,000-litre tanks under the ground.</li><li>Gravity takes it on to a constructed lagoon for biological treatment.</li><li>It is pumped back into the building for use.</li><li>Greywater runs down the natural slope into a two-stage filter.</li><li>Filtered greywater joins the rainwater for final purification.</li></ol>' },
-        'tamarindo/water-cycle', 'The water cycle of the building, in six steps.', { ink: true, flip: true }),
+        'tamarindo/water-cycle-duo', 'The water cycle of the building, in six steps.', { flip: true }),   // the duotone carries the paper; multiply would darken it
       sheet('Slope, sun and water', [['tamarindo/mesh-slope', 'The terrain by slope'], ['tamarindo/solar-1-k', 'Sun paths'], ['tamarindo/solar-2', 'Shadows through the year'], ['tamarindo/water-sections-k', 'Water in section']], { cols: 4 }),
     ],
   },
