@@ -11,7 +11,7 @@ const asset = name => `assets/${name}.webp`;
 const footer = () => `<footer class="footer"><span>Carlos Vinocour · Architecture, computation &amp; ongoing studies</span><a href="mailto:vinocouralvarez@gmail.com">Start a conversation ↗</a></footer>`;
 // 2026-11-02 (Carlos): the name alone, small, over the image; white, or lilac where the cover is light under it (assets/sizes.js)
 const cardName = p => p.title.split(' / ')[0];
-const card = p => { const light=((window.SIZES||{})[asset(p.cover)]||[])[2]>.65; /* .65: Porous field's busy mesh (.63) reads better in white */ return `<a class="card ${p.id}${light?' light':''}" href="#/work/${p.id}" aria-label="${esc(cardName(p))}"><div class="visual"><img src="${asset(p.cover)}" alt="${esc(p.alt)}" loading="lazy" width="600" height="430"></div><h2 class="card-name">${esc(cardName(p))}</h2></a>`; };
+const card = p => { const light=((window.SIZES||{})[asset(p.cover)]||[])[2]>.7; /* .7: Porous field (.63) and Capital Group's marble (.69) read better in white (Carlos) */ return `<a class="card ${p.id}${light?' light':''}" href="#/work/${p.id}" aria-label="${esc(cardName(p))}"><div class="visual"><img src="${asset(p.cover)}" alt="${esc(p.alt)}" loading="lazy" width="600" height="430"></div><h2 class="card-name">${esc(cardName(p))}</h2></a>`; };
 function home(filter='all') {
   const selected = filter === 'all' ? projects : projects.filter(p=>p.tags.includes(filter));
   const headings = {all:'A collection of spaces, systems,<br>and things in progress.',architecture:'Spaces, landscapes,<br>and the work between.',computation:'Rules, material,<br>and emerging forms.'};

@@ -77,8 +77,8 @@ window.CV = {
    "place": "Madrid, Spain"
   },
   {
-   "years": "2022–2023",
-   "title": "Complex Geometries, Digital Futures; Metaverse 2.0, Mariana Cabugueira Studios",
+   "years": "2021–2023",
+   "title": "Creative UX/UI, Universidad Veritas; Complex Geometries, Digital Futures; Metaverse 2.0",
    "place": "Online"
   }
  ],
@@ -381,6 +381,14 @@ window.WORK_INDEX = [
   "with": "Studio CAVA",
   "place": "Playa Negra, Costa Rica",
   "year": "2022",
+  "page": ""
+ },
+ {
+  "title": "Creative UX/UI specialization",
+  "type": "course",
+  "with": "Universidad Veritas",
+  "place": "Online",
+  "year": "2021–2022",
   "page": ""
  },
  {
