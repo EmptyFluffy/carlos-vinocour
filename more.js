@@ -212,7 +212,7 @@ const LAYOUTS = {
       group('Villa 555: the stairs', '', row([['zha/stair-plan', 'The residential wing stair from above.'], ['zha/stair-up', 'Looking up from the B2 corridor.'],
         ['zha/stair-living', 'The living area stair round the trunk, the canopy ghosted.']], { ink: true })),
       hero('zha/int-kitchen', 'Villa 555: the living room and kitchen, the stair round the trunk. Visualization: Zaha Hadid Architects.', '50% 45%'),
-      row([['zha/int-sitting', 'The formal sitting area. Visualization: Zaha Hadid Architects.'], ['zha/int-library', 'The library. Visualization: Zaha Hadid Architects.']]),
+      row([['zha/int-bedroom', 'A bedroom at night, seen from the garden. Visualization: Zaha Hadid Architects.'], ['zha/int-sitting', 'The formal sitting area. Visualization: Zaha Hadid Architects.'], ['zha/int-library', 'The library. Visualization: Zaha Hadid Architects.']]),
       side({ h: 'From the live model to Revit.', p: [
         'The shells came from ZHCODE, the computational group at Zaha Hadid Architects, as a live Grasshopper model: a mesh, a planar grid, centrelines with their IDs, construction planes and section profiles for every glulam beam.',
         'In July 2022 I carried villa 346 from that model toward the construction model. The output was baked to 5,403 curves and lines, and the canopy linework was split by layer, 5,444 curves in all, so Dynamo could read it from CAD layers, frame it and keep the geometry in sync with its Revit families.'] },
