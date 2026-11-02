@@ -14,7 +14,8 @@ function home(filter='all') {
   const selected = filter === 'all' ? projects : projects.filter(p=>p.tags.includes(filter));
   const headings = {all:'A collection of spaces, systems,<br>and things in progress.',architecture:'Spaces, landscapes,<br>and the work between.',computation:'Rules, material,<br>and emerging forms.'};
   const sub = {all:'Selected work & ongoing studies',architecture:'Built-environment projects, proposals & studies',computation:'Computational approaches within architectural work'};
-  content.innerHTML=`<header class="intro"><h1>${headings[filter]}</h1><p>${sub[filter]}</p></header>${filter==='all'?fieldHTML():''}<section class="gallery" aria-label="${filter==='all'?'Selected work':filter}">${selected.map(card).join('')}</section>${footer()}`;
+  const intro=`<header class="intro"><h1>${headings[filter]}</h1><p>${sub[filter]}</p></header>`;
+  content.innerHTML=`${filter==='all'?`<div class="home-top">${intro}${fieldHTML()}</div>`:intro}<section class="gallery" aria-label="${filter==='all'?'Selected work':filter}">${selected.map(card).join('')}</section>${footer()}`;
   const field=content.querySelector('.home-field');if(field)window.initField(field);
 }
 const fieldHTML = () => `<figure class="home-field" aria-hidden="true"><div class="field"><canvas></canvas></div></figure>`;

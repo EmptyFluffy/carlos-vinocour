@@ -203,11 +203,15 @@ nav a:after{background:var(--ink)}
   .ix td.ix-with,.ix td.ix-place{grid-column:1/-1;font-size:13px}.ix td.ix-type{font-size:12px}.ix td.ix-year{text-align:right}}
 .eyebrow .yr{margin-left:10px}
 
-/* added 2026-10-30: the field on the home page (field.js): marks drawn in the ink colour on a canvas */
-.home-field{margin:-6px 0 56px;color:var(--ink)}
-.field{height:200px}
+/* added 2026-10-30: the field on the home page (field.js): marks drawn in the ink colour on a canvas. Moved 2026-11-01 beside the
+   headline, as tall as the intro, so it takes no height from the projects (Carlos). The field is absolute so the canvas never sizes the row */
+.home-top{display:grid;grid-template-columns:auto minmax(0,1fr);gap:56px;margin-bottom:64px}
+.home-top .intro{margin-bottom:0}
+.home-field{position:relative;margin:0;min-width:0;color:var(--ink)}
+.home-field .field{position:absolute;inset:0}
 .field canvas{display:block;width:100%;height:100%}
-@media(max-width:700px){.home-field{margin:0 0 36px}.field{height:150px}}
+@media(max-width:1150px){.home-top{grid-template-columns:1fr;gap:20px}.home-field .field{position:static;height:96px}}
+@media(max-width:700px){.home-top{margin-bottom:40px}.home-field .field{height:80px}}
 
 /* added 2026-10-30: cards closer together (Carlos): three columns 16 px apart, two on tablets */
 .gallery{grid-template-columns:repeat(3,minmax(0,1fr));gap:40px 16px}
