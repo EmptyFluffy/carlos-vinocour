@@ -153,6 +153,7 @@ const LAYOUTS = {
     eyebrow: 'Software · Studio operations',
     lede: 'A live model of an architecture firm. People, projects and fees are connected on a canvas, and every change recalculates capacity, yield and pricing across the practice.',
     blocks: () => [
+      hero('prizma/mockup', 'Prizma on a laptop and a tablet: the live canvas, and a team open in the app.'),   // tools/prizma_mockup.mjs (2026-11-01)
       live('prizma-live.html', 'The live model from heyprizma.com, with demo data.', 'Prizma, the live canvas'),
       side({ h: 'What can this firm safely absorb next?', p: [
         'Most studios decide whether to take a new project with a spreadsheet and a feeling. A spreadsheet holds the formulas but cannot show what moves when one thing changes. In Prizma the information lives in the connections: give a person a new project and the others lose hours, change a fee and the team\'s multiplier moves, lose a senior and a project is left without supervision.',
