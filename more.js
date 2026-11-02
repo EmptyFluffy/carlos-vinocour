@@ -324,12 +324,12 @@ const LAYOUTS = {
   },
   mecca: {
     blocks: p => [
-      hero('mecca/tower', 'The hotel and residential towers at dusk.'),
+      hero('mecca/terrace', 'A hotel terrace facing the Haram at sunset.'),   // the opening image since 2026-11-01 (Carlos)
       side({ h: 'A closer look', p: [p.body, p.body2] }, 'mecca/site-plan', 'Site plan, between the city and the Grand Mosque.'),
       side({ h: 'Views as a design input.', p: ['One script scored every room by what it could see of the Haram; a second set the openings and balconies from that score, tower by tower.',
         'The massing was worked out in ten steps, from the platform over the levels of the site to the towers set on the line to the Kaaba, each step checked against the view.'] }, 'mecca/orientation-k', 'The towers on the line to the Kaaba.', { ink: true, flip: true }),
       sheet('Design generation', Array.from({ length: 10 }, (_, i) => [`mecca/gen-${String(i + 1).padStart(2, '0')}-k`, `Step ${String(i + 1).padStart(2, '0')}`]), { strip: true, cols: 5, numbers: false }),
-      row([['mecca/aerial', 'The scheme in the city at night.'], ['mecca/terrace', 'A terrace toward the city.']]),
+      row([['mecca/aerial', 'The scheme in the city at night.'], ['mecca/tower', 'The hotel and residential towers at dusk.']]),
     ],
   },
 };
