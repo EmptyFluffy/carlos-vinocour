@@ -9,7 +9,9 @@ for (const key of ['all','architecture','computation','index']) {
 const esc = value => String(value).replace(/[&<>"']/g, x => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[x]));
 const asset = name => `assets/${name}.webp`;
 const footer = () => `<footer class="footer"><span>Carlos Vinocour · Architecture, computation &amp; ongoing studies</span><a href="mailto:vinocouralvarez@gmail.com">Start a conversation ↗</a></footer>`;
-const card = p => `<a class="card ${p.id}" href="#/work/${p.id}" aria-label="View ${esc(p.title)}"><div class="visual"><img src="${asset(p.cover)}" alt="${esc(p.alt)}" loading="lazy" width="600" height="430"></div><h2 class="card-title"><span class="card-number">${String(projects.indexOf(p)+1).padStart(2,'0')}</span><span>${window.titleHTML(p.title)}</span></h2><p>${window.kindHTML(p.id)||esc(p.category)}</p></a>`;
+// 2026-11-02 (Carlos): the name alone, small, over the image; white, or ink where the cover is light under it (assets/sizes.js)
+const cardName = p => p.title.split(' / ')[0];
+const card = p => { const light=((window.SIZES||{})[asset(p.cover)]||[])[2]>.6; return `<a class="card ${p.id}${light?' light':''}" href="#/work/${p.id}" aria-label="${esc(cardName(p))}"><div class="visual"><img src="${asset(p.cover)}" alt="${esc(p.alt)}" loading="lazy" width="600" height="430"></div><h2 class="card-name">${esc(cardName(p))}</h2></a>`; };
 function home(filter='all') {
   const selected = filter === 'all' ? projects : projects.filter(p=>p.tags.includes(filter));
   const headings = {all:'A collection of spaces, systems,<br>and things in progress.',architecture:'Spaces, landscapes,<br>and the work between.',computation:'Rules, material,<br>and emerging forms.'};
