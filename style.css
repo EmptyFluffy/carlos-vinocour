@@ -227,3 +227,4 @@ nav a:after{background:var(--ink)}
 .card.light .card-name{color:#7c5cf0;text-shadow:none}   /* lilac on light covers (Carlos); 4.5:1 on white */
 .card:not(.light) .visual:after{content:'';position:absolute;inset:auto 0 0 0;height:34%;background:linear-gradient(rgba(10,10,12,0),rgba(10,10,12,.32));pointer-events:none}   /* a soft floor so white names hold on mid-tone covers */
 @media(max-width:700px){.gallery{gap:8px}.card-name{left:10px;right:10px;bottom:9px;font-size:12px}}
+.card.stair img{object-position:8% 50%}   /* the stair sits left of centre in its render: the crop follows it (2026-11-03, Carlos) */

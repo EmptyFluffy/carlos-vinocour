@@ -232,8 +232,8 @@ const LAYOUTS = {
     blocks: p => [
       hero('shade/dusk', 'The pavilion at dusk, lit through its openings.'),
       side({ h: 'A closer look', p: [p.body] }, 'shade/close', 'The shell up close: each cell deepens into an opening.'),
-      sheet('From experiment to module', [['shade/experiment-1', 'Foam and membranes'], ['shade/experiment-2', 'Cell patterns'], ['shade/module-k', 'The formwork'], ['shade/module-sequence-k', 'The module family'],
-        ['shade/casts-k', 'Cast pieces'], ['shade/formwork-k', 'Assembly'], ['shade/site-k', 'Site massing'], ['shade/shadows-k', 'Range of shadows']], { cols: 4 }),
+      sheet('From experiment to module', [['shade/experiment-1-bw', 'Foam and membranes'], ['shade/module-k', 'The formwork'], ['shade/module-sequence-k', 'The module family'],
+        ['shade/casts-k', 'A cast piece'], ['shade/formwork-k', 'Assembly'], ['shade/site-k', 'Site massing'], ['shade/shadows-k', 'Range of shadows']], { cols: 4 }),
       side({ p: [p.body2] }, 'shade/square', 'The shell where it meets the square.', { flip: true }),
       sheet('The definition and the vault', [['shade/definition-k', 'The Grasshopper definition'], ['shade/vault-k', 'The vault it makes']], { cols: 2 }),
     ],
