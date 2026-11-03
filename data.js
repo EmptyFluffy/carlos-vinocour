@@ -77,8 +77,8 @@ window.CV = {
    "place": "Madrid, Spain"
   },
   {
-   "years": "2021–2023",
-   "title": "Creative UX/UI, Universidad Veritas; Complex Geometries, Digital Futures; Metaverse 2.0",
+   "years": "2021–2026",
+   "title": "Python, Universidad Creativa; UX/UI, Veritas; Complex Geometries, Digital Futures",
    "place": "Online"
   }
  ],
@@ -156,6 +156,14 @@ window.WORK_INDEX = [
   "type": "documentation",
   "with": "Antoine Predock Architect",
   "place": "Corrales, USA",
+  "year": "2026",
+  "page": ""
+ },
+ {
+  "title": "Python programming",
+  "type": "course",
+  "with": "Universidad Creativa",
+  "place": "Costa Rica",
   "year": "2026",
   "page": ""
  },
