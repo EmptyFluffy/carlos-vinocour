@@ -230,14 +230,14 @@ nav a:after{background:var(--ink)}
 .card.stair img{object-position:8% 50%}   /* the stair sits left of centre in its render: the crop follows it (2026-11-03, Carlos) */
 
 /* 2026-11-03 (Carlos): the sidebar without the counts and its items closer; the column only as wide as the name with
-   the same gutter on both sides (the name sets 166 px wide at 26 px: re-measure if the face or the size changes), the
+   the same gutter on both sides (the name sets 168.6 px wide at 26 px, regular since 2026-11-04: re-measure if the face, weight or size changes), the
    width it gives up going to the projects.
    2026-11-04 (Carlos, from Yale's process magenta, Harvard GSD's pink-500/700, p5.js and Riso): pink means selected,
    as in a CAD viewport, in two tones of one pink because no single one does both jobs. --pop is Riso's Fluorescent Pink
    (Pantone 806 U), a ground: behind selected text, the section you are in and every link under the cursor (5.8:1 under
    the ink), and the grips of a hovered project. --accent is the deep magenta for what is drawn on the paper itself: the
    section's underline, link rules, the focus ring (5.4:1 on the paper; the bright one gives 2.9) */
-:root{--pop:#ff48b0;--accent:#c4007a;--sidebar:222px}
+:root{--pop:#ff48b0;--accent:#c4007a;--sidebar:224.6px}
 ::selection{background:var(--pop);color:var(--ink)}
 /* the tops of the letters line up across the page (Carlos): the name with the headline's first line, the first item of
    the nav with the top of the first row of projects. Measured in the browser from the faces' ascent and the 'l', so a
@@ -249,6 +249,11 @@ nav a{line-height:1.4}
    row of projects (measured: 26 px letters sit 4.2 px lower in their line than 17 px ones); the gap grows with the size */
 @media(min-width:701px){nav{gap:13.8px;margin-top:72.25px}nav a{font-size:26px}}
 nav a:after{content:none}
+/* the sidebar in one face at one weight (Carlos): the name regular and untracked like the nav, and get in touch at the
+   nav's size, its line drawn on the bottom edge of its letters as the selected section's is, so the pink of a hover
+   meets it without the line moving. The arrow closes up (4 px) so the line fits the name's width */
+.name{font-weight:400;letter-spacing:normal}
+@media(min-width:701px){.sidebar-bottom .text-link{font-size:26px;white-space:nowrap;padding-bottom:0;border-bottom:0;background:linear-gradient(var(--ink),var(--ink)) bottom/100% 1px no-repeat content-box}.sidebar-bottom .text-link span{margin-left:4px}}
 /* a link under the cursor looks like selected text (Carlos): the Riso pink behind the ink, at once as a selection
    appears, over the letters' own height (1.24 em, what the browser's selection covers in this face), not the line's.
    A link that is underlined keeps its line, moved onto the pink's bottom edge, and so does the section you are in,
@@ -275,7 +280,7 @@ nav a.active,nav a.active:hover{background:var(--band-ruled) center/100% 1.24em 
 .card:hover:before,.card:focus-visible:before{opacity:1}
 main{padding-left:46px}
 @media(min-width:1500px){main{padding-left:56px;padding-right:56px}}
-@media(max-width:1150px){:root{--sidebar:210px}.sidebar{padding-top:46.8px;padding-left:22px;padding-right:22px}main{padding-left:32px}}
+@media(max-width:1150px){:root{--sidebar:212.6px}.sidebar{padding-top:46.8px;padding-left:22px;padding-right:22px}main{padding-left:32px}}
 @media(max-width:700px){.sidebar{padding:25px 23px 22px}nav{gap:15px 23px;margin-top:28px}main{padding:35px 23px 25px}}
 /* page changes: the old page fades out, the new one fades in rising 10 px; the sidebar is a layer of its own and holds
    still (its old picture hidden, so the old underline doesn't show through) */
