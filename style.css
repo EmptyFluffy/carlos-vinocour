@@ -234,8 +234,9 @@ nav a:after{background:var(--ink)}
    width it gives up going to the projects.
    2026-11-04 (Carlos, from Yale's process magenta, Harvard GSD's pink-500/700, p5.js and Riso): pink means selected,
    as in a CAD viewport, in two tones of one pink because no single one does both jobs. --pop is Riso's Fluorescent Pink
-   (Pantone 806 U), a ground: behind selected text (5.8:1 under the ink) and the grips of a hovered project. --accent is
-   the deep magenta for pink text: the section you are in and every hover (5.4:1 on the paper; the bright one gives 2.9) */
+   (Pantone 806 U), a ground: behind selected text, the section you are in and every link under the cursor (5.8:1 under
+   the ink), and the grips of a hovered project. --accent is the deep magenta for what is drawn on the paper itself: the
+   section's underline, link rules, the focus ring (5.4:1 on the paper; the bright one gives 2.9) */
 :root{--pop:#ff48b0;--accent:#c4007a;--sidebar:222px}
 ::selection{background:var(--pop);color:var(--ink)}
 /* the tops of the letters line up across the page (Carlos): the name with the headline's first line, the first item of
@@ -246,7 +247,7 @@ nav{gap:9px;margin-top:76.5px}
 nav a{line-height:1.4}
 nav a:after{bottom:0;transition:none}   /* 4.4 px under the baseline, just clear of the p's tail (it hung 9.4 px down, more than an x-height) */
 nav a:not(.active):hover:after{width:0}
-nav a.active{color:var(--accent)}
+nav a.active{color:var(--ink);background:linear-gradient(var(--pop),var(--pop)) center/100% 1.24em no-repeat content-box}   /* the section you are in stays selected (Carlos) */
 nav a.active:after{background:var(--accent)}
 /* a link under the cursor looks like selected text (Carlos): the Riso pink behind the ink, at once as a selection
    appears, over the letters' own height (1.24 em, what the browser's selection covers in this face), not the line's.
