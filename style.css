@@ -235,8 +235,11 @@ nav a:after{background:var(--ink)}
    hover, in place of the blueprint blue: 3.1:1 on the paper, 5.4:1 under the ink */
 :root{--pop:#d94cf6;--accent:var(--pop);--sidebar:222px}
 ::selection{background:var(--pop);color:var(--ink)}
-.sidebar{padding-left:28px;padding-right:28px}
-nav{gap:9px;margin-top:60px}
+/* the tops of the letters line up across the page (Carlos): the name with the headline's first line, the first item of
+   the nav with the top of the first row of projects. Measured in the browser from the faces' ascent and the 'l', so a
+   change to the name, the headline or the intro's spacing moves them apart */
+.sidebar{padding-top:58.8px;padding-left:28px;padding-right:28px}
+nav{gap:9px;margin-top:76.5px}
 nav a{line-height:1.4;transition:color .2s}
 nav a:after{transition:width .2s,background-color .2s}
 .name{transition:color .2s}
@@ -244,7 +247,7 @@ nav a:after{transition:width .2s,background-color .2s}
 nav a:hover:after{background:var(--pop)}
 main{padding-left:46px}
 @media(min-width:1500px){main{padding-left:56px;padding-right:56px}}
-@media(max-width:1150px){:root{--sidebar:210px}.sidebar{padding-left:22px;padding-right:22px}main{padding-left:32px}}
+@media(max-width:1150px){:root{--sidebar:210px}.sidebar{padding-top:46.8px;padding-left:22px;padding-right:22px}main{padding-left:32px}}
 @media(max-width:700px){.sidebar{padding:25px 23px 22px}nav{gap:15px 23px;margin-top:28px}main{padding:35px 23px 25px}}
 /* page changes: the old page fades out, the new one fades in rising 10 px; the sidebar is a layer of its own and holds
    still (its old picture hidden, so the old underline doesn't show through) */
