@@ -243,11 +243,19 @@ nav a:after{background:var(--ink)}
    change to the name, the headline or the intro's spacing moves them apart */
 .sidebar{padding-top:58.8px;padding-left:28px;padding-right:28px}
 nav{gap:9px;margin-top:76.5px}
-nav a{line-height:1.4;transition:color .2s}
-nav a:after{bottom:0;transition:width .2s,background-color .2s}   /* 4.4 px under the baseline, just clear of the p's tail (it hung 9.4 px down, more than an x-height) */
-.name{transition:color .2s}
-.name:hover,nav a:hover,nav a.active{color:var(--accent)}
-nav a:hover:after,nav a.active:after{background:var(--accent)}
+nav a{line-height:1.4}
+nav a:after{bottom:0;transition:none}   /* 4.4 px under the baseline, just clear of the p's tail (it hung 9.4 px down, more than an x-height) */
+nav a:not(.active):hover:after{width:0}
+nav a.active{color:var(--accent)}
+nav a.active:after{background:var(--accent)}
+/* a link under the cursor looks like selected text (Carlos): the Riso pink behind the ink, at once as a selection
+   appears, over the letters' own height (1.24 em, what the browser's selection covers in this face), not the line's.
+   The underline is left to the section you are in. Only where there is a mouse, since a tap would leave it stuck on.
+   Links set inline, and the name, are already as tall as their letters: they take the whole box */
+.name,.text-link,.ix a{--hl-h:100%}
+@media(hover:hover){.name:hover,nav a:hover,.text-link:hover,.footer a:hover,.ix a:hover{background:linear-gradient(var(--pop),var(--pop)) center/100% var(--hl-h,1.24em) no-repeat content-box;color:var(--ink)}}
+.name:focus-visible,nav a:focus-visible,.text-link:focus-visible,.footer a:focus-visible,.ix a:focus-visible{background:linear-gradient(var(--pop),var(--pop)) center/100% var(--hl-h,1.24em) no-repeat content-box;color:var(--ink)}
+.ix a:hover,.ix a:focus-visible{text-decoration:none}
 /* a hovered project shows the four corner grips of an object selected in CAD, centred on the image's corners (the card
    is exactly as large as its image: the name sits on top of it) */
 .card:before{content:'';position:absolute;inset:-3px;z-index:1;pointer-events:none;opacity:0;transition:opacity .2s;
