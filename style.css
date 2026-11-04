@@ -245,18 +245,28 @@ nav a:after{background:var(--ink)}
 .sidebar{padding-top:58.8px;padding-left:28px;padding-right:28px}
 nav{gap:9px;margin-top:76.5px}
 nav a{line-height:1.4}
-nav a:after{bottom:0;transition:none}   /* 4.4 px under the baseline, just clear of the p's tail (it hung 9.4 px down, more than an x-height) */
-nav a:not(.active):hover:after{width:0}
-nav a.active{color:var(--ink);background:linear-gradient(var(--pop),var(--pop)) center/100% 1.24em no-repeat content-box}   /* the section you are in stays selected (Carlos) */
-nav a.active:after{background:var(--accent)}
+/* 2026-11-04 (Carlos): the nav as large as the name. The margin keeps the first item's letters level with the first
+   row of projects (measured: 26 px letters sit 4.2 px lower in their line than 17 px ones); the gap grows with the size */
+@media(min-width:701px){nav{gap:13.8px;margin-top:72.25px}nav a{font-size:26px}}
+nav a:after{content:none}
 /* a link under the cursor looks like selected text (Carlos): the Riso pink behind the ink, at once as a selection
    appears, over the letters' own height (1.24 em, what the browser's selection covers in this face), not the line's.
-   The underline is left to the section you are in. Only where there is a mouse, since a tap would leave it stuck on.
-   Links set inline, and the name, are already as tall as their letters: they take the whole box */
+   A link that is underlined keeps its line, moved onto the pink's bottom edge, and so does the section you are in,
+   which stays selected. Only where there is a mouse, since a tap would leave it stuck on. Links set inline, and the
+   name, are already as tall as their letters: they take the whole box */
+:root{--band:linear-gradient(var(--pop),var(--pop));--band-ruled:linear-gradient(to top,var(--ink) 1px,var(--pop) 1px)}
 .name,.text-link,.ix a{--hl-h:100%}
-@media(hover:hover){.name:hover,nav a:hover,.text-link:hover,.footer a:hover,.ix a:hover{background:linear-gradient(var(--pop),var(--pop)) center/100% var(--hl-h,1.24em) no-repeat content-box;color:var(--ink)}}
-.name:focus-visible,nav a:focus-visible,.text-link:focus-visible,.footer a:focus-visible,.ix a:focus-visible{background:linear-gradient(var(--pop),var(--pop)) center/100% var(--hl-h,1.24em) no-repeat content-box;color:var(--ink)}
+@media(hover:hover){
+  .name:hover,nav a:hover,.ix a:hover{background:var(--band) center/100% var(--hl-h,1.24em) no-repeat content-box;color:var(--ink)}
+  .text-link:hover,.footer a:hover{background:var(--band-ruled) center/100% var(--hl-h,1.24em) no-repeat content-box;color:var(--ink);border-bottom-color:transparent}}
+.name:focus-visible,nav a:focus-visible,.ix a:focus-visible{background:var(--band) center/100% var(--hl-h,1.24em) no-repeat content-box;color:var(--ink)}
+.text-link:focus-visible,.footer a:focus-visible{background:var(--band-ruled) center/100% var(--hl-h,1.24em) no-repeat content-box;color:var(--ink);border-bottom-color:transparent}
+nav a.active,nav a.active:hover{background:var(--band-ruled) center/100% 1.24em no-repeat content-box;color:var(--ink)}
 .ix a:hover,.ix a:focus-visible{text-decoration:none}
+/* a short screen (a 13" laptop, 1366 x 768) has no room for the spiral under the larger nav: it goes, and anything
+   still too tall scrolls in the sidebar instead of being cut off at the bottom */
+@media(min-width:701px){.sidebar{overflow-y:auto}}
+@media(min-width:701px) and (max-height:840px){.mark{display:none}}
 /* a hovered project shows the four corner grips of an object selected in CAD, centred on the image's corners (the card
    is exactly as large as its image: the name sits on top of it) */
 .card:before{content:'';position:absolute;inset:-3px;z-index:1;pointer-events:none;opacity:0;transition:opacity .2s;
