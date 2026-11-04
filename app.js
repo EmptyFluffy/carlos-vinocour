@@ -2,10 +2,6 @@ const content = document.querySelector('main');
 const lightbox = document.querySelector('#lightbox');
 const projects = window.PROJECTS;
 document.querySelector('.skip').addEventListener('click', e => {e.preventDefault();content.focus();content.scrollIntoView();});
-for (const key of ['all','architecture','computation','index']) {
- const count=key==='index'?window.WORK_INDEX.length:key==='all'?projects.length:projects.filter(p=>p.tags.includes(key)).length;
- document.querySelector(`[data-nav="${key}"] span`).textContent=String(count).padStart(2,'0');
-}
 const esc = value => String(value).replace(/[&<>"']/g, x => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[x]));
 const asset = name => `assets/${name}.webp`;
 const footer = () => `<footer class="footer"><span>Carlos Vinocour · Architecture, computation &amp; ongoing studies</span><a href="mailto:vinocouralvarez@gmail.com">Start a conversation ↗</a></footer>`;
@@ -73,11 +69,15 @@ function route(){
  else if(path==='/notes/site-studies'){section='notes';note();}
  else missing();
  window.BLOCKS_INIT&&window.BLOCKS_INIT(content);
+ // 2026-11-03: an image still on its way fades in over its ground instead of popping in (a failed one shows anyway)
+ content.querySelectorAll('img').forEach(img=>{if(img.complete)return;img.classList.add('ld');const done=()=>img.classList.remove('ld');img.addEventListener('load',done,{once:true});img.addEventListener('error',done,{once:true});});
  document.querySelectorAll('[data-nav]').forEach(a=>{const active=a.dataset.nav===section;a.classList.toggle('active',active);active?a.setAttribute('aria-current','page'):a.removeAttribute('aria-current');});
  window.scrollTo({top:0,behavior:'instant'});
 }
 content.addEventListener('click',e=>{const b=e.target.closest('[data-image]');if(!b)return;lightbox.querySelector('img').src=b.dataset.image;lightbox.querySelector('img').alt=b.dataset.caption;lightbox.querySelector('p').textContent=b.dataset.caption;lightbox.showModal();});
 lightbox.querySelector('button').addEventListener('click',()=>lightbox.close());
 lightbox.addEventListener('click',e=>{if(e.target===lightbox){const r=lightbox.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)lightbox.close();}});
-window.addEventListener('hashchange',()=>{route();content.focus({preventScroll:true});});
+// 2026-11-03: one page gives way to the next (the View Transitions API, style.css); without it, or with reduced motion, the swap is instant
+const still=matchMedia('(prefers-reduced-motion: reduce)');
+window.addEventListener('hashchange',()=>{const go=()=>{route();content.focus({preventScroll:true});};document.startViewTransition&&!still.matches?document.startViewTransition(go):go();});
 route();
