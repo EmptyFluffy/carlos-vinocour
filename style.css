@@ -231,9 +231,12 @@ nav a:after{background:var(--ink)}
 
 /* 2026-11-03 (Carlos): the sidebar without the counts and its items closer; the column only as wide as the name with
    the same gutter on both sides (the name sets 166 px wide at 26 px: re-measure if the face or the size changes), the
-   width it gives up going to the projects. One pop colour, an orchid between pink and lilac, for selected text and every
-   hover, in place of the blueprint blue: 3.1:1 on the paper, 5.4:1 under the ink */
-:root{--pop:#d94cf6;--accent:var(--pop);--sidebar:222px}
+   width it gives up going to the projects.
+   2026-11-04 (Carlos, from Yale's process magenta, Harvard GSD's pink-500/700, p5.js and Riso): pink means selected,
+   as in a CAD viewport, in two tones of one pink because no single one does both jobs. --pop is Riso's Fluorescent Pink
+   (Pantone 806 U), a ground: behind selected text (5.8:1 under the ink) and the grips of a hovered project. --accent is
+   the deep magenta for pink text: the section you are in and every hover (5.4:1 on the paper; the bright one gives 2.9) */
+:root{--pop:#ff48b0;--accent:#c4007a;--sidebar:222px}
 ::selection{background:var(--pop);color:var(--ink)}
 /* the tops of the letters line up across the page (Carlos): the name with the headline's first line, the first item of
    the nav with the top of the first row of projects. Measured in the browser from the faces' ascent and the 'l', so a
@@ -241,10 +244,16 @@ nav a:after{background:var(--ink)}
 .sidebar{padding-top:58.8px;padding-left:28px;padding-right:28px}
 nav{gap:9px;margin-top:76.5px}
 nav a{line-height:1.4;transition:color .2s}
-nav a:after{transition:width .2s,background-color .2s}
+nav a:after{bottom:0;transition:width .2s,background-color .2s}   /* 4.4 px under the baseline, just clear of the p's tail (it hung 9.4 px down, more than an x-height) */
 .name{transition:color .2s}
-.name:hover,nav a:hover{color:var(--pop)}
-nav a:hover:after{background:var(--pop)}
+.name:hover,nav a:hover,nav a.active{color:var(--accent)}
+nav a:hover:after,nav a.active:after{background:var(--accent)}
+/* a hovered project shows the four corner grips of an object selected in CAD, centred on the image's corners (the card
+   is exactly as large as its image: the name sits on top of it) */
+.card:before{content:'';position:absolute;inset:-3px;z-index:1;pointer-events:none;opacity:0;transition:opacity .2s;
+  background:linear-gradient(var(--pop),var(--pop)) left top,linear-gradient(var(--pop),var(--pop)) right top,
+  linear-gradient(var(--pop),var(--pop)) left bottom,linear-gradient(var(--pop),var(--pop)) right bottom;background-size:6px 6px;background-repeat:no-repeat}
+.card:hover:before,.card:focus-visible:before{opacity:1}
 main{padding-left:46px}
 @media(min-width:1500px){main{padding-left:56px;padding-right:56px}}
 @media(max-width:1150px){:root{--sidebar:210px}.sidebar{padding-top:46.8px;padding-left:22px;padding-right:22px}main{padding-left:32px}}
