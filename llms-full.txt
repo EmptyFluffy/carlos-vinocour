@@ -1,0 +1,1580 @@
+# Carlos Vinocour · Selected work
+
+URL: https://carlosvinocour.com/
+
+A collection of spaces, systems,
+and things in progress.
+
+Selected work & ongoing studies
+
+Mohari Villas
+Papagayo 404
+Military museum
+Bahías
+Capital Group
+Mall of the Emirates
+Jabal Omar
+NYA
+Living system
+Tamarindo 2050
+La Perla
+Prizma
+Porous field
+Facade studies
+Pavilion
+
+---
+
+# Architecture · Carlos Vinocour
+
+URL: https://carlosvinocour.com/architecture
+
+Spaces, landscapes,
+and the work between.
+
+Built-environment projects, proposals & studies
+
+Mohari Villas
+Papagayo 404
+Military museum
+Bahías
+Capital Group
+Mall of the Emirates
+Jabal Omar
+NYA
+Living system
+Tamarindo 2050
+La Perla
+Facade studies
+
+---
+
+# Computation · Carlos Vinocour
+
+URL: https://carlosvinocour.com/computation
+
+Rules, material,
+and emerging forms.
+
+Computational approaches within architectural work
+
+Mohari Villas
+Capital Group
+Mall of the Emirates
+Tamarindo 2050
+La Perla
+Prizma
+Porous field
+Facade studies
+Pavilion
+
+---
+
+# Index · Carlos Vinocour
+
+URL: https://carlosvinocour.com/work
+
+Index
+
+All my work since 2013.
+
+key
+
+built
+competition
+design development, documentation, master plan, interiors
+thesis, research, course
+software, experiment
+
+type	project	with	place	year	no.
+software	Prizma	Own	heyprizma.com	2026	12
+documentation	A house in New Mexico	Antoine Predock Architect	New Mexico, USA	2026	
+documentation	Chicago House	Antoine Predock Architect	Placitas, USA	2026	
+software	Ghoster, Milky and Enough	Own	iOS	2026	
+software	HeyBricky	Own	Web	2026	
+documentation	Orchard House	Antoine Predock Architect	Corrales, USA	2026	
+course	Python programming	Universidad Creativa	Costa Rica	2026	
+software	Shapeform	Own	Web	2026	
+software	cava.design: studio website and tools	Studio CAVA	cava.design	2026	
+documentation	Andaz Residences: signage and details	Antoine Predock Architect	Papagayo, Costa Rica	2025–2026	
+documentation	Mohari lot 548	Antoine Predock Architect	Papagayo, Costa Rica	2025–2026	
+documentation	Stephens Residence	Antoine Predock Architect	Placitas, USA	2025–2026	
+course	Front-end and full-stack development	Various	Online	2023–2026	
+documentation	Rail Trail Tumbleweed	Antoine Predock Architect	Albuquerque, USA	2025	
+design development	Negra Mixed Use	Studio CAVA	Playa Negra, Costa Rica	2022–2025	
+built	Bahías	Antoine Predock Architect	Papagayo, Costa Rica	2021–2025	04
+experiment	Porous field, a surface study	Own	Geometric study	2024	13
+built	Hangars B	Studio CAVA	Huacas, Costa Rica	2024	
+design development	Tree House	Studio CAVA	Playa Grande, Costa Rica	2024	
+master plan	A residential development, Mata Caña	Studio CAVA	Santa Cruz, Costa Rica	2023–2024	
+master plan	Hacienda del Mar master plan		Guanacaste, Costa Rica	2023–2024	
+documentation	A house in Playa Grande	Studio CAVA	Playa Grande, Costa Rica	2022–2024	
+design development	Residential projects	Garnier Arquitectos	Costa Rica	2022–2024	
+course	Short courses: UX, acoustics, earth	Various	Online	2021–2024	
+design development	Private residences	Studio CAVA	Guanacaste, Costa Rica	2020–2024	
+experiment	Facade studies: one volume, four systems	Own	Geometric study	2023	14
+master plan	Punta Sol master plan	Garnier Arquitectos	Costa Rica	2023	
+course	Metaverse 2.0	Mariana Cabugueira Studios	Online	2022–2023	
+design development	Mohari: three Predock houses	Garnier Arquitectos	Papagayo, Costa Rica	2022–2023	
+design development	Villas Marina Golfito	Garnier Arquitectos	Golfito, Costa Rica	2022–2023	
+design development	Mohari Villas	Zaha Hadid Architects	Papagayo, Costa Rica	2021–2023	01
+design development	Green City house	Studio CAVA	Alajuela, Costa Rica	2020–2023	
+course	Complex Geometries	Digital Futures	Online	2022	
+master plan	Futuro Brillante emergency housing	Studio CAVA	Matapalo, Costa Rica	2022	
+design development	Tragaluz Retreat	Studio CAVA	Playa Negra, Costa Rica	2022	
+course	Creative UX/UI specialization	Universidad Veritas	Online	2021–2022	
+experiment	Computational modelling commissions	Freelance		2020–2022	
+master plan	La Perla master plan	Studio CAVA	Matapalo, Costa Rica	2021	11
+design development	A residence and pavilion	Studio CAVA	Guanacaste, Costa Rica	2021	
+documentation	Dawn Patrol Bakery	Studio CAVA	Tamarindo, Costa Rica	2021	
+built	Kauhane House	Studio CAVA	Playa Grande, Costa Rica	2021	
+design development	Lean & Green health bar	Studio CAVA	San Diego, USA	2021	
+design development	Rancho Cartagena house	Studio CAVA	Cartagena, Costa Rica	2021	
+design development	S3 Houses	Studio CAVA	Playa Langosta, Costa Rica	2021	
+documentation	A house in Potrero	Studio CAVA	Potrero, Costa Rica	2020–2021	
+documentation	A residence and bungalows	Studio CAVA	Tamarindo, Costa Rica	2020–2021	
+competition	Sleeping pods on a cliff	Studio CAVA	Vale de Moses, Portugal	2020–2021	
+experiment	Work-from-home products	Own		2020–2021	
+research	Yoga retreat	Studio CAVA		2020–2021	
+built	Papagayo 404	Studio CAVA	Papagayo, Costa Rica	2020	02
+master plan	Tamarindo tourism destination plan	Costa Rica Tourism Board	Tamarindo, Costa Rica	2019–2020	
+documentation	Prefabricated hotel cabins	Private client	California, USA	2019	
+built	Capital Group	Gensler	New York, USA	2018	05
+competition	Mall of the Emirates	Gensler	Dubai, UAE	2018	06
+competition	Military museum	Studio CAVA	La Maddalena, Italy	2018	03
+master plan	NYA, a growing town	Gensler	Liberia, Costa Rica	2018	08
+interiors	Citi Banamex interiors	Gensler	Mexico	2018	
+design development	Poder Judicial facade	Gensler	San José, Costa Rica	2018	
+master plan	SunTrust campus and plaza	Gensler	Atlanta, USA	2018	
+experiment	Surf Simply canopy		Nosara, Costa Rica	2018	
+experiment	Surfboard model	Own		2018	
+documentation	KIPP Texas high school	Gensler	Texas, USA	2017–2018	
+course	Rhino and Grasshopper teaching	Gensler, freelance	Costa Rica	2016–2018	
+thesis	Tamarindo 2050	Universidad Veritas	Tamarindo, Costa Rica	2017	10
+competition	Shell House: a system for living	Holcim Awards	Site-independent	2016–2017	09
+research	A shade: morphogenetic pavilion	Universidad Veritas	Hypothetical site	2016	15
+competition	Jabal Omar hotel	Gensler	Mecca, Saudi Arabia	2016	07
+competition	Plaza Tempo urban sculpture		Costa Rica	2016	
+research	San José 2050: Green within the Grid	OS Arquitectura	San José, Costa Rica	2016	
+documentation	A residence in Matapalo	Osarq	Matapalo, Costa Rica	2015–2016	
+design development	Langosta Villas	Osarq	Playa Langosta, Costa Rica	2014–2016	
+research	A house for Bruce Wayne	Universidad Veritas	San José, Costa Rica	2015	
+course	Cascades of Light pavilion	Studio Saxe	San José, Costa Rica	2014	
+course	ETSAM exchange, Mansilla + Tuñón	UPM ETSAM	Madrid, Spain	2013–2014
+
+---
+
+# About · Carlos Vinocour
+
+URL: https://carlosvinocour.com/about
+
+A little context
+
+Architecture is my starting point.
+
+I’m Carlos, an architect and computational designer based in Costa Rica, with ten years across design, documentation and construction.
+
+I have worked on the architect-of-record team for houses by Zaha Hadid Architects and Antoine Predock at Peninsula Papagayo, on competitions and built work at Gensler New York, and as design lead in my own studio. I lead coordination between design architects, consultants and site, and I write the Grasshopper and Dynamo tools that carry complex geometry into Revit and construction documents.
+
+Alongside architecture I build software: Prizma, a live model of an architecture practice, and PivotHop, a platform that reads live job postings.
+
+Experience
+
+Jul 2024–Present
+
+Architect, Antoine Predock Architect
+
+Albuquerque, New Mexico
+
+Houses, hospitality and public art in New Mexico and Costa Rica, from design development to construction documents and permit sets, coordinated with the consultants.
+Drawings, details, schedules, document review and RFIs for Mohari lot 548 and the Andaz Residences (Peninsula Papagayo) and houses in Placitas and Corrales; geometry and drawings for the Tumbleweed sculpture, Albuquerque Rail Trail.
+Grasshopper and Dynamo definitions that streamline modelling and documentation; Excel trackers for deliverables and revisions.
+
+2020–Present
+
+Principal, Studio CAVA
+
+Guanacaste, Costa Rica
+
+Architecture and interiors studio with Melissa Araya: houses, hospitality and master plans.
+Project architect and design lead of Papagayo 404, a built 1,100 m² extension at Papagayo.
+Concept and Kangaroo form-finding for a military museum competition in Italy.
+
+2021–2023
+
+Project Architect, Garnier Arquitectos
+
+San José, Costa Rica
+
+Architect-of-record team, with MAZ, for international design architects in Costa Rica: led coordination between Zaha Hadid Architects (Mohari Villas), Antoine Predock Architect (Bahías, built), local consultants, the facade consultant and site.
+Owned geometry and interoperability: Grasshopper scripts that planarised the Mohari glazing into fabricable panels; ZHCODE's live model into Revit with Dynamo; the Bahías roofs into Revit through Conveyor.
+Set up the Revit integration schedule and the coordination trackers; also Villas Marina Golfito and the Punta Sol master plan.
+
+2018–2020
+
+Project Manager, Costa Rica Tourism Board (ICT)
+
+Tamarindo, Costa Rica
+
+Managed public infrastructure and recreation areas in Tamarindo, coordinating designers and builders into one plan.
+
+2016–2018
+
+Architect, Gensler
+
+New York
+
+Concept designer on the Jabal Omar hotel (Mecca) and Mall of the Emirates (Dubai) competitions: Grasshopper scripts that set openings and balconies to the view of the Haram; facade geometry in Rhino and Grasshopper.
+Job captain for the Capital Group stair, New York (built): construction documents, the parametric set-out script, coordination with consultants and the fabricator.
+Parametric and documentation support on master plans (SunTrust, NYA), facades (Poder Judicial), interiors (Citi Banamex) and KIPP Texas; taught Grasshopper to colleagues.
+
+2014–2016
+
+Junior Architect, Osarq
+
+Tamarindo, Costa Rica
+
+Houses and hospitality from schematic design to construction observation; models, 3D printing and presentations.
+Education
+
+2017
+
+Architecture, Universidad Veritas
+
+San José, Costa Rica
+
+2013–2014
+
+Exchange, Mansilla + Tuñón unit, UPM–ETSAM
+
+Madrid, Spain
+
+2021–2026
+
+Python, Universidad Creativa; UX/UI, Veritas; Complex Geometries, Digital Futures
+
+Online
+
+Tools
+
+Geometry
+
+Rhino, Grasshopper, Kangaroo, Weaverbird, Ladybug, Python, Maya, Blender
+
+BIM
+
+Revit, Dynamo, Rhino.Inside, Conveyor, AutoCAD
+
+Software
+
+TypeScript, React, Node, Python, Git
+
+Visualization
+
+Enscape, D5 Render, Unreal Engine, V-Ray, Adobe CC
+
+Languages
+
+Spanish (native), English (fluent)
+
+Recognition
+1st place, Designing the Essence workshop, Studio Saxe, 2014.
+XIII Costa Rica Architecture Biennale: Green Within the Grid, San José 2050, 2016.
+Published in Domus Central America (no. 022) and Plataforma Arquitectura.
+Beyond the archive
+
+For architecture projects in Costa Rica, visit Studio CAVA.
+
+Studio CAVA ↗
+
+Everything I have worked on since 2013, with or without a page here:
+
+The index →
+Get in touch
+
+For collaborations and conversations:
+
+vinocouralvarez@gmail.com ↗
+
+Or on LinkedIn:
+
+Carlos Vinocour ↗
+About this edition
+
+Selected work, 2016 to 2026. Each collaborative project states my role and credits its design architects.
+
+---
+
+# Notes · Carlos Vinocour
+
+URL: https://carlosvinocour.com/notes
+
+Notes from an
+evolving practice.
+
+Questions, working ideas & unfinished threads
+
+01
+
+IDEA
+Site Studies
+
+A modular toolkit for reading a site before placing a building.
+
+↗
+
+---
+
+# Site Studies · Carlos Vinocour
+
+URL: https://carlosvinocour.com/notes/site-studies
+
+← All notes
+
+Working idea · October 2026
+
+Site Studies
+
+What if the first design move was a clearer understanding of the ground?
+
+I’m exploring the idea of a modular Grasshopper toolkit that brings terrain, trees and planning constraints into a shared site model. The aim is to compare possible locations for a building and make the reasoning visible.
+
+Terrain + trees
+Constraints
+Suitable areas
+Alternatives
+Several components, one conversation
+
+Each component would remain useful on its own: reading terrain, mapping slopes, protecting trees, defining constraints or comparing footprints. The architect could change priorities and inspect the consequences.
+
+Separate mandatory constraints from design preferences.
+Compare alternatives for earthworks, tree preservation and access.
+Show the source and assumptions behind each input.
+
+This is a project concept, not a released plugin. The first experiment would use a single site with verified inputs and a limited family of footprints.
+
+It continues a thread from the Tamarindo water and urbanism study ↗.
+
+---
+
+# Mohari Villas / complex geometries · Carlos Vinocour
+
+URL: https://carlosvinocour.com/work/zha
+
+← Selected work
+
+design development2021–2023 · Residential
+
+Mohari Villas / complex geometries
+
+Eight hillside villas by Zaha Hadid Architects on the Papagayo Peninsula, each under a timber shell that rises from a single trunk. I was on the architect-of-record team that made the shells buildable.
+
+place
+Papagayo, Costa Rica
+context
+Garnier Arquitectos with MAZ, architect of record · design by Zaha Hadid Architects · 2021–2023
+contribution
+Project architect on the architect-of-record team: led coordination between Zaha Hadid Architects, the local consultants and the facade consultant; developed the shell geometry; wrote the Grasshopper scripts that planarised the glazing and divided it into fabricable panels
+Under the shell, at the foot of a trunk. Visualization: Zaha Hadid Architects.
+A closer look
+
+The Mohari villas are eight houses by Zaha Hadid Architects on the Papagayo Peninsula, each under timber shells that rise from a single trunk like a giant mushroom. On the architect-of-record team in Costa Rica, with Garnier Arquitectos and MAZ, I coordinated the design architects, the local consultants and the facade consultant through design development.
+
+My work sat where the geometry met the documents: developing the shell form, writing the Grasshopper scripts that planarised the glazing and broke it into fabricable panels, and carrying the model across Rhino, Revit and the drawing set.
+
+The pool terrace under the shells. Visualization: Zaha Hadid Architects.
+Arrival. Visualization: Zaha Hadid Architects.
+Villa 346 above the dry forest. Visualization: Zaha Hadid Architects.
+
+The villas, drawn by Zaha Hadid Architects
+
+Villa 350, level B01.
+Villa 555, section B, through both shells and down the slope.
+Villa 350, section A.
+Section C.
+Section D.
+
+The canopy in design development
+
+01
+From concept to design development
+02
+The parts of a canopy: glulam beams, backer panels and timber battens
+03
+The timber undercroft: battens of five types, set in tiers
+04
+Shape analysis
+05
+Collider check
+06
+One family: plan, perspective, profiles
+07
+Grid set-out optimisation
+08
+The structure, member by member
+
+Villa 555: the stairs
+
+The residential wing stair from above.
+Looking up from the B2 corridor.
+The living area stair round the trunk, the canopy ghosted.
+Villa 555: the living room and kitchen, the stair round the trunk. Visualization: Zaha Hadid Architects.
+A bedroom at night, seen from the garden. Visualization: Zaha Hadid Architects.
+The formal sitting area. Visualization: Zaha Hadid Architects.
+The library. Visualization: Zaha Hadid Architects.
+From the live model to Revit.
+
+The shells came from ZHCODE, the computational group at Zaha Hadid Architects, as a live Grasshopper model: a mesh, a planar grid, centrelines with their IDs, construction planes and section profiles for every glulam beam.
+
+In July 2022 I carried villa 346 from that model toward the construction model. The output was baked to 5,403 curves and lines, and the canopy linework was split by layer, 5,444 curves in all, so Dynamo could read it from CAD layers, frame it and keep the geometry in sync with its Revit families.
+
+Villa 346, the two canopies in plan, on separate layers for Revit. From my working file.
+
+Villa 346, July 2022: the live model into Revit, in five steps
+
+Each canvas is shown whole, with a box on the part that does the step, and then that part. Open either to zoom.
+
+01
+The live model
+
+ZHCODE delivered each canopy as a live Grasshopper model, one group per canopy, ending in its construction planes, section profiles and beam geometry.
+
+zoom ↗
+ZHCODE's live model, whole.
+zoom ↗
+The foot of the two canopy groups: planes, profiles and beam geometry.
+02
+My pass
+
+I baked villa 346 out of the live model and split the canopy linework by layer: centrelines, hoops and section marks, each on its own.
+
+zoom ↗
+The canopy linework, baked by layer.
+zoom ↗
+Where the left trunk opens into the canopy.
+03
+Layers to curves
+
+Dynamo read the linked drawing by layer name and drew each canopy layer in Revit as model curves, with bimorphNodes.
+
+zoom ↗
+Dynamo: layers to curves, whole.
+zoom ↗
+CAD.CurvesFromCADLayers.
+04
+Curves to beams
+
+Each curve became a structural beam, set on its level and given its glulam framing type.
+
+zoom ↗
+Dynamo: curves to beams, whole.
+zoom ↗
+StructuralFraming.BeamByCurve.
+05
+Solids to families
+
+The solids came in from SAT files and synced as Revit families, set up once in the input group, so Revit could schedule and draw them.
+
+zoom ↗
+Dynamo: SAT solids to families, whole.
+zoom ↗
+K-Family Insert.
+
+The live model (ZHCODE)
+
+01
+Mesh and planar grid
+02
+Centrelines and IDs
+03
+Construction planes
+04
+Beam geometry
+
+My working models
+
+01
+Villa 346, the canopy linework
+02
+My pass on the live model
+03
+Villa 555, the curved facade
+04
+Villa 346, glulam and steel set-out
+Villa 328: the glass, unit by unit.
+
+The facade of villa 328 was set out in Rhino as a curtain system on a 1.5 by 3 m grid, with its columns and glass lines, then every insulated glass unit was measured and scheduled: 32 in the main space and 21 in the den, no two the same size. The opaque panels were scheduled in the same pass, by volume and length.
+
+Villa 328
+
+01
+The facade model
+02
+The glazing schedule, every unit to scale
+
+Architectural design, drawings, renders, the stair views and the interiors: Zaha Hadid Architects; the live model: ZHCODE. Layers to curves is a bimorphNodes sample graph. Drawings of the Rhino models, the glazing schedule and the canvases: Carlos Vinocour, from his working files, July 2022.
+
+Next in the collection
+Papagayo 404 / a house extension
+→
+
+---
+
+# Papagayo 404 / a house extension · Carlos Vinocour
+
+URL: https://carlosvinocour.com/work/papagayo-404
+
+← Selected work
+
+built2020 · Residential
+
+Papagayo 404 / a house extension
+
+An extension of about 1,100 m² to a house raised on slanted steel columns above the dry forest.
+
+place
+Península Papagayo, Costa Rica
+context
+Studio CAVA · built 2020
+contribution
+Project architect and design lead; drawings signed with Melissa Araya
+The house on its slanted steel columns, above the pool and the decks.
+A closer look
+
+Papagayo 404 is a house on slanted steel columns over the dry forest of the Papagayo Peninsula, above the bay. Studio CAVA designed its extension: the entrance sequence, the kitchen and living room, two bathrooms, the pools and the jacuzzi, the decks, a sunken terrace with a fire pit and an outdoor kitchen.
+
+The pool, the jacuzzi and the decks under the raised bedrooms.
+The pool deck under the house.
+The double-height living room.
+The sunken terrace
+
+A long infinity pool runs along the edge of the lot. Timber decks tie the water to the kitchen and the double-height living room, and at the end of the terrace rings of built-in seating step down to a square fire pit under a canopy on two raked posts. The drawings come from the construction set, annotated in Spanish as they were drawn for the builders.
+
+The sunken terrace at dusk.
+The built-in seating round the fire pit.
+The jacuzzi at sunset.
+
+From the schematic design
+
+Two elevations through the deck: the house on its slanted columns over the slope.
+The kitchen and living room: plan and interior elevations.
+The terrace seating: the given dimensions, and our proposal.
+
+From the construction set
+
+01
+Site plan
+02
+The sunken terrace, section
+03
+The sunken terrace, plan
+04
+The outdoor kitchen, plan
+
+Architecture: Studio CAVA (Carlos Vinocour, Melissa Araya). Photographs: John Abrams. cava.design/projects/papagayo-404
+
+Next in the collection
+Military museum / a roof of sails
+→
+
+---
+
+# Military museum / a roof of sails · Carlos Vinocour
+
+URL: https://carlosvinocour.com/work/museum
+
+← Selected work
+
+competition2018 · Cultural
+
+Military museum / a roof of sails
+
+A competition entry for a military museum: a run of tensile canopies along the edge of a headland, above the sea.
+
+place
+An island in Italy
+context
+Competition entry · 2025
+contribution
+Concept and form-finding, with Joshua Chaves: the Grasshopper script, with Kangaroo, that relaxed the cloth between the masts until each canopy curved two ways at once
+The canopies along the edge of the headland, above the bay and its islands.
+A roof that began with sails.
+
+The roof began with sails: light cloth held in tension, curving two ways at once. A run of canopies follows the edge of the headland, and masts carry the cloth over the stone terraces and the path along the cliff.
+
+Under the canopies the museum stays open to the sea air and the view, in shade through the day and lit from below at night.
+
+The canopies lit at dusk, over the path along the headland.
+
+The canopy, form-found
+
+The cloth was relaxed in Kangaroo between the masts until each canopy curved two ways at once, like a sail.
+
+The competition model in Rhino, the roof over the terraces.
+The canopy mesh as Kangaroo relaxed it between the masts.
+zoom ↗
+My Grasshopper definition: the structure and the tensile canopies, with the Kangaroo solver.
+
+Inspiration
+
+Defender, 1895. Photograph: John S. Johnston.
+Shamrock II, 1901. Photograph: Detroit Publishing Co.
+Atalanta, 1887. Photograph: Nathaniel L. Stebbins.
+Valkyrie II and Vigilant, 1893. Photograph: Henry G. Peabody.
+
+Competition entry by Carlos Vinocour and Joshua Chaves. Visualization: Emanuel Baizán. Sail photographs: Wikimedia Commons, public domain.
+
+Next in the collection
+Bahías / thirteen houses on a ridge
+→
+
+---
+
+# Bahías / thirteen houses on a ridge · Carlos Vinocour
+
+URL: https://carlosvinocour.com/work/predock
+
+← Selected work
+
+built2021–2025 · Residential
+
+Bahías / thirteen houses on a ridge
+
+Thirteen houses by Antoine Predock along a ridge above the Gulf of Papagayo, each under a copper roof that floats free of the walls below. Built.
+
+place
+Peninsula Papagayo, Costa Rica
+context
+Garnier Arquitectos with MAZ, architect of record · design by Antoine Predock Architect · 2021–2025
+contribution
+Project coordinator and geometry lead on the architect-of-record team: coordination of the design architect, the consultants and the local team; the roof geometry from Rhino into Revit through Conveyor, Grasshopper and Dynamo
+Houses 7, 8 and 9 in the dry forest canopy. Rendering: BINYAN, courtesy of Peninsula Papagayo.
+One continuous event, not thirteen houses.
+
+Bahías is a community of 13 houses, each on its own site, along a ridge 80 metres above the Gulf of Papagayo, between the Pacific and Culebra Bay, in the tropical dry forest.
+
+A stone wall Antoine Predock calls the necklace anchors the houses along the ridge lane. Above it the copper roofs float on their own and never touch, one undulating line whose blue-green patina takes the colour of the trees and the sea. The concrete is pigmented with the soil and the beach sand; almost every specimen tree stayed and no boulder was moved.
+
+From Vladimir Belogolovsky's interview with Antoine Predock, ArchDaily, June 2021 ↗
+
+Bahías 6 in the forest. Photograph: Alex Fradkin.
+From the drawings to the site.
+
+Garnier Arquitectos and MAZ were the architect of record in Costa Rica. As project coordinator I ran the coordination between Antoine Predock's studio, the consultants and the local team, and followed the houses through construction.
+
+I was also the project's geometry lead: the floating copper roofs were carried from Rhino into Revit through Conveyor, with Grasshopper and Dynamo scripts that kept the geometry, the documents and the consultants' models in step.
+
+The roofs are doubly curved and no two houses are alike, so the geometry had to travel without loss between the design architect's models, the consultants' models and the construction set.
+
+House 7 on the ridge. Rendering: BINYAN, courtesy of Peninsula Papagayo.
+The roof edge over the terrace and the bay. Rendering: BINYAN, courtesy of Peninsula Papagayo.
+
+Bahías 6, built
+
+01
+The copper roof over the necklace wall
+02
+The roof edge over the terrace
+03
+The overhang toward the bay
+04
+Looking out over Culebra Bay
+The thirteen houses along the ridge, between the Pacific and Culebra Bay. Rendering: BINYAN, courtesy of Peninsula Papagayo.
+
+Built
+
+01
+Bahías 2 in the canopy
+02
+Bahías 13 and its pool, from above
+03
+Bahías 13, the terrace and pool under the roof
+04
+Toward the gulf
+
+The plans
+
+01
+Bahías 2, lower level
+02
+Bahías 2, upper level
+03
+Bahías 4, lower level
+04
+Bahías 4, upper level
+
+The design, 2021
+
+01
+House 9
+02
+House 7 from the lane
+03
+The roof over a terrace
+04
+House 11
+
+Architecture: Antoine Predock Architect. Architect of record: Garnier Arquitectos with MAZ. Photographs of Bahías 6: Alex Fradkin; other photographs and plans courtesy of Peninsula Papagayo; renderings: BINYAN, courtesy of Peninsula Papagayo, as published on ArchDaily (2021).
+
+Next in the collection
+Capital Group / an elliptical stair
+→
+
+---
+
+# Capital Group / an elliptical stair · Carlos Vinocour
+
+URL: https://carlosvinocour.com/work/stair
+
+← Selected work
+
+built2018 · Workplace
+
+Capital Group / an elliptical stair
+
+An elliptical stair through three floors of a Capital Group office in New York, from sketch to steel. Built.
+
+place
+New York City, USA
+context
+Gensler New York · built, 2018
+contribution
+Job captain for the stair: its complete construction document set, the parametric script that set out the elliptical run, and coordination with the consultants and the fabricator through construction
+The stair from above.
+A closer look
+
+The stair is the one move in a quiet, three-storey workplace: a single elliptical run, wrapped in a brass guardrail, that ties the floors together around the lobby.
+
+I produced the complete construction document set for the stair, wrote the parametric script that set out its elliptical run, and coordinated with the consultants and the fabricator through construction.
+
+The run between floors.
+
+The stair in plan
+
+01
+35th floor
+02
+34th floor
+
+The stair stands in the same place on every floor, beside the reception and the cafe, so each floor reads as a landing.
+
+The stair on the 34th floor. Rendering: Gensler.
+The 34th floor reception. Rendering: Gensler.
+
+From sketch to steel
+
+01
+Concept sketch
+02
+The landing
+03
+Modelled in Rhino
+04
+The elliptical run
+Through the three floors.
+Another view.
+
+Architecture and interiors: Gensler New York. Renderings: Gensler. Built.
+
+Next in the collection
+Mall of the Emirates / a facade as a field
+→
+
+---
+
+# Mall of the Emirates / a facade as a field · Carlos Vinocour
+
+URL: https://carlosvinocour.com/work/mall
+
+← Selected work
+
+competition2018 · Retail
+
+Mall of the Emirates / a facade as a field
+
+An ideas competition to give the Mall of the Emirates a new face: a field of nickel-plated tubes that shimmers as you move past it, opened by screens wherever the programme pushes out.
+
+place
+Dubai, UAE
+context
+Ideas competition · Gensler · 2018
+contribution
+Concept designer: the facade and its geometry in Rhino and Grasshopper, the sections and elevations, the glazed connection to the existing mall, the competition presentation
+A facade of nickel-plated tubes, opened by LED-glass screens where the programme pushes out.
+A closer look
+
+In plan the building pinches at the centre, so the sheen of the nickel changes with every viewpoint. The screens are LED glass: their colour and motion follow the media inside, the activity on each floor and the weather.
+
+The atrium.
+
+The skin: tubes, light and screens
+
+The skin never reads the same twice: the nickel answers the sun and the viewer, and the screens set into it change with the programme.
+
+Where the programme pushes out, the tubes part around a screen.
+The field of tubes around the middle screen.
+Tube by tube, each catching the light at its own angle.
+
+Screen tests on the same frame
+
+01
+White
+02
+A pink wave
+03
+A blue wave
+
+Shadow studies of the tube field, in V-Ray
+
+01
+Study 1
+02
+Study 2
+03
+Study 3
+04
+Study 4
+
+From geometry to documentation
+
+01
+The connection in Rhino
+02
+The glazed connector
+03
+The glazed roof
+04
+As a Revit family
+
+Elevation and section
+
+01
+Front elevation
+02
+Longitudinal section
+
+I developed the facade and its geometry in Rhino and Grasshopper, drew the sections and the elevations, and modelled the glazed connection to the existing mall.
+
+Inside the connection.
+
+The atrium ceiling as a screen
+
+01
+One study
+02
+Another
+
+Ideas competition: Gensler, 2018. Images: Gensler.
+
+Next in the collection
+Jabal Omar / a hotel facing the Haram
+→
+
+---
+
+# Jabal Omar / a hotel facing the Haram · Carlos Vinocour
+
+URL: https://carlosvinocour.com/work/mecca
+
+← Selected work
+
+competition2016 · Hospitality
+
+Jabal Omar / a hotel facing the Haram
+
+An invited competition for a Four Seasons hotel and two residential towers beside the Grand Mosque. Jabal Omar Development invited four firms, Foster + Partners among them.
+
+place
+Mecca, Saudi Arabia
+context
+Invited competition · Gensler · 2016
+contribution
+Concept designer: the Grasshopper scripts that measured the view from every room to the Haram and set each opening and balcony to it, the documentation and the competition presentations
+A hotel terrace facing the Haram at sunset.
+A closer look
+
+The scheme sits between the city and the Grand Mosque, on a site that steps down over several levels.
+
+I worked on the concept and wrote the Grasshopper scripts that tuned every opening and balcony to the view of the Haram, then documented the scheme and built the competition presentations.
+
+Site plan, between the city and the Grand Mosque.
+Views as a design input.
+
+One script scored every room by what it could see of the Haram; a second set the openings and balconies from that score, tower by tower.
+
+The massing was worked out in ten steps, from the platform over the levels of the site to the towers set on the line to the Kaaba, each step checked against the view.
+
+The towers on the line to the Kaaba.
+
+Design generation
+
+Step 01
+Step 02
+Step 03
+Step 04
+Step 05
+Step 06
+Step 07
+Step 08
+Step 09
+Step 10
+The scheme in the city at night.
+The hotel and residential towers at dusk.
+
+Invited competition: Gensler, 2016.
+
+Next in the collection
+NYA / a growing town
+→
+
+---
+
+# NYA / a growing town · Carlos Vinocour
+
+URL: https://carlosvinocour.com/work/nya
+
+← Selected work
+
+master plan2018 · Urbanism
+
+NYA / a growing town
+
+A mixed-use community considered as a phased and evolving urban landscape.
+
+place
+Liberia, Costa Rica
+context
+Mixed-use masterplan study
+contribution
+Geometry scripts and urban analysis in Grasshopper
+The town centre under its canopy.
+A closer look
+
+NYA brings together housing, services, retail and a town center. The proposal explores a tropical architectural language alongside a phased approach to development.
+
+The selected imagery moves between the masterplan, landscape and pedestrian scale. It records an interest in how an urban framework can accommodate change over time.
+
+Houses in the forest.
+The lagoon and the town.
+The whole development, from above.
+
+Mixed-use masterplan study, Liberia, Costa Rica.
+
+Next in the collection
+Living system
+→
+
+---
+
+# Living system · Carlos Vinocour
+
+URL: https://carlosvinocour.com/work/housing
+
+← Selected work
+
+competition2016–2017 · Housing
+
+Living system
+
+A housing system explored through transport, repetition and assembly.
+
+place
+Site-independent proposal
+context
+Competition study
+contribution
+Design, drawings and visualization
+The units at night, along a shared walk.
+A closer look
+
+The proposal uses precast frames as the basis of a modular housing system. Transport constraints, structural logic and the arrangement of openings become inputs to the design.
+
+A unit by day.
+
+Assembly
+
+01
+Volume
+02
+Gable
+03
+Frames
+04
+Joined
+05
+Closed
+06
+Program
+
+Transport and structure
+
+01
+Frames sized for a standard trailer
+02
+The structural system
+
+The portfolio follows the proposal from individual frames to inhabitable units and a collective site arrangement. Assembly speed is a design ambition of the study, rather than a measured construction result.
+
+Inside a unit.
+
+Drawings
+
+01
+Section through the living room
+02
+Section through the bedroom
+03
+Front elevation
+04
+Air flow
+
+Competition entry, social housing.
+
+Next in the collection
+Tamarindo 2050 / water as an urban framework
+→
+
+---
+
+# Tamarindo 2050 / water as an urban framework · Carlos Vinocour
+
+URL: https://carlosvinocour.com/work/tamarindo
+
+← Selected work
+
+thesis2017 · Territory
+
+Tamarindo 2050 / water as an urban framework
+
+My thesis: a plan for Tamarindo drawn from its water. The new grid follows the runoff of the hills, so the town gathers rain through the dry season and makes room for it in the wet one.
+
+place
+Tamarindo, Costa Rica
+context
+Thesis, Universidad Veritas · 2017
+contribution
+Author: the morphological and runoff analysis of the watershed, the recalibrated urban grid, and a public building that collects, stores and treats its own water
+The public building on the dry plain, raised above the seasonal water.
+A closer look
+
+Fast, speculative growth has left the Pacific coast without the infrastructure to manage its water. The project reads the land first: blocks sit between the drainage lines, open space follows the water, and the building closes the cycle.
+
+The investigation treats infrastructure as a starting point for design. It connects regional patterns with the scale of an architectural intervention and forms an early thread in my interest in computational site analysis.
+
+The public building, its green roof and the water garden, in plan.
+
+The runoff and slope definition
+
+Rain is followed down the terrain: 1,303 points scattered over it are moved down and pulled back onto the surface, 200 times in a loop, and their paths are the runoff. The same mesh is coloured by its slope.
+
+zoom ↗
+My Grasshopper definition: the runoff loop and the slope of the mesh.
+
+Reading the water
+
+01
+The site
+02
+Runoff from the terrain
+03
+Main drainage lines
+04
+Blocks between them
+05
+Open spaces along the water
+06
+Blocks by type
+07
+Built volumes
+08
+Volumes against the runoff
+
+The street network
+
+01
+Connectivity
+02
+Integration
+The building closes the cycle.
+A green roof catches the rain, slows it and filters it.
+Steel downpipes in the columns carry it to eight 50,000-litre tanks under the ground.
+Gravity takes it on to a constructed lagoon for biological treatment.
+It is pumped back into the building for use.
+Greywater runs down the natural slope into a two-stage filter.
+Filtered greywater joins the rainwater for final purification.
+The water cycle of the building, in six steps.
+
+Slope, sun and water
+
+01
+The terrain by slope
+02
+Sun paths
+03
+Shadows through the year
+04
+Water in section
+
+Thesis by Carlos Vinocour, Universidad Veritas, 2017.
+
+Next in the collection
+La Perla / reading the land first
+→
+
+---
+
+# La Perla / reading the land first · Carlos Vinocour
+
+URL: https://carlosvinocour.com/work/la-perla
+
+← Selected work
+
+master plan2021
+
+La Perla / reading the land first
+
+A condominium on 5.7 hectares at Matapalo, planned from the ground: its height, its slope and the paths of the rain were read before a single lot was drawn.
+
+place
+Matapalo, Guanacaste, Costa Rica
+context
+Studio CAVA · master plan study, 2021
+contribution
+Site analysis and master plan, with Melissa Araya
+The master plan as an illustrative collage over an aerial of the land.
+Eight readings, one plan.
+
+The land was modelled from the topographic survey and read in layers: contours lifted into three dimensions, elevation, slope and runoff. Each reading answers a practical question. Gentle ground is where a road or a house costs least to build, the steepest is left as it is, and where the rain gathers the water has to be led away and kept clear of buildings.
+
+The road follows the gentlest ground in a single loop that ends in a turning circle. The houses sit in rows along one side and in a fan around the circle, and each was checked against the paths of the water before the plan was fixed.
+
+Analysis in Rhino and Grasshopper. The film was drawn frame by frame in code from the same layers: plan and axonometric of each reading, cut together on a beat.
+
+The readings
+
+01
+Terrain
+Modelled from the topographic survey.
+02
+Contours
+Lifted into three dimensions.
+03
+Elevation
+Every point by its height.
+04
+Slope
+Gentle ground costs least to build on.
+05
+Runoff
+The paths the rain takes.
+06
+Streets
+One road that keeps its grade gentle.
+07
+Lots and houses
+33 houses in four types.
+08
+Houses over runoff
+Each house checked against the water.
+The plan.
+
+33 houses in four types, 6,510 m², and four shared buildings, 610 m²: a clubhouse inside the loop, a lookout on the high edge, a bathhouse and a garden kitchen.
+
+A400 m² × 3
+B250 m² × 11
+C160 m² × 11
+D100 m² × 8
+Massing model: houses in a fan around the turning circle.
+The road curving between rows of houses down the slope.
+Houses on both sides of the road as it climbs the land.
+
+Studio CAVA (Carlos Vinocour, Melissa Araya). A master plan study, not built; the collage is illustrative.
+
+Next in the collection
+Prizma / a studio as a system
+→
+
+---
+
+# Prizma / a studio as a system · Carlos Vinocour
+
+URL: https://carlosvinocour.com/work/prizma
+
+← Selected work
+
+software2026
+
+Prizma / a studio as a system
+
+A live model of an architecture firm. People, projects and fees are connected on a canvas, and every change recalculates capacity, yield and pricing across the practice.
+
+place
+Web application
+context
+Independent product · 2026
+contribution
+Product and interface design, the studio model, front-end build
+Prizma on a laptop: the live canvas.
+The live model from heyprizma.com, with demo data.
+What can this firm safely absorb next?
+
+Most studios decide whether to take a new project with a spreadsheet and a feeling. A spreadsheet holds the formulas but cannot show what moves when one thing changes. In Prizma the information lives in the connections: give a person a new project and the others lose hours, change a fee and the team's multiplier moves, lose a senior and a project is left without supervision.
+
+The model is deterministic. Hours are derived from fees, phases and rates, so a principal can test a decision before making it: another hotel, a resignation, a different fee.
+
+Open the demo ↗
+heyprizma.com ↗
+
+The whole firm on one canvas: staff, projects, teams by typology and the studio, with notes beside the model.
+A team selected: its multiplier, profit, utilisation and stability margin.
+Effort EQ: one person's hours slid between projects; burn, room left and fees recalculate through every team it touches.
+The product page.
+
+heyprizma.com explains the model to the principal who would buy it: the five questions it answers, why it is not a project management tool, and the arithmetic underneath.
+
+heyprizma.com: the opening, with a live model you can pull.
+
+heyprizma.com
+
+01
+The five questions a principal asks
+02
+The model is the workspace
+
+React and TypeScript. The canvas and the model are written from scratch, without a graph library; the model is its own tested package, and a firm brief exports to Excel.
+
+Next in the collection
+Porous field / a surface study
+→
+
+---
+
+# Porous field · Carlos Vinocour
+
+URL: https://carlosvinocour.com/work/surface
+
+← Selected work
+
+Computational study · Rhino / Grasshopper
+
+Porous field.
+A surface in variation.
+
+A curved surface, a repeated opening, and a gradual change in how the whole catches the light.
+
+focus
+Surface · Pattern · Porosity
+medium
+Rhino / Grasshopper
+format
+Geometric study
+Overall perspective · iridescent surface.
+Repetition with a changing expression.
+
+A field of staggered openings articulates the curved form. Across the surface, the visible apertures and surrounding relief change in scale and expression.
+
+The views move from the complete form to its local geometry: reflective studies, close-up details and the wireframe behind the surface.
+
+Alternate reflective study.
+Close perspective · openings and local relief.
+Perspective wireframe · local geometry across the curved surface.
+
+The definition
+
+01
+Plan, elevation and section, to the same scale
+02
+Hexagon cells on the surface; at each centroid an opening along the normal, filleted, moved and scaled
+
+Inside the definition
+
+Reading the canvas.
+
+Six views through the definition, from the hexagon cells to the welded mesh.
+
+01
+Hexagon cells
+02
+A star in each cell
+03
+The inner outline
+04
+The opening
+05
+Lofts
+06
+One welded mesh
+
+View 01 / 06
+
+Hexagon cells
+
+Hexagon Cells divides the surface into 44 by 36 cells. Each cell is exploded into its edges, and a cull pattern keeps only the cells with six, so no broken hexagon reaches the border.
+
+Open detail ↗
+View complete script ↗
+Next region →
+Original script overview
+Continue exploring
+Facade studies / one volume, four systems
+→
+
+---
+
+# Facade studies · Carlos Vinocour
+
+URL: https://carlosvinocour.com/work/facades
+
+← Selected work
+
+Computational study · Rhino / Grasshopper
+
+One volume.
+Four geometric systems.
+
+An experiment in how subdivision, attraction and rotation can transform a shared starting geometry.
+
+study
+Experiment · Facade systems
+author
+Carlos Vinocour
+original documentation
+November 2023
+The shared starting volume.
+
+A common starting point
+
+Change the rule.
+Read the difference.
+
+The same volume supports several approaches to its envelope. Each selected definition reveals a different relationship between a repeated element and the whole.
+
+Original script labels are retained throughout this selection.
+
+Script 0 ↓
+Script 1 ↓
+Script 2 ↓
+Script 4 ↓
+Script 0
+Subdivision & an attractor
+Script 1
+Rotation across the facade
+Script 2
+A diagonal facade lattice
+Script 4
+Progressive horizontal rotation
+
+Shared setup
+
+Routing the geometry
+
+The original definition uses a Value List and Stream Gate to select a branch of the Grasshopper canvas. The screenshots below document that shared setup.
+
+Instructions and branch-selection setup in the original canvas.
+Value List: choose which branch receives the input.
+Stream Gate: route the input to the selected output.
+
+Script 0
+
+Subdivision & an attractor
+
+A repeated surface system becomes differentiated through an attractor-driven transformation.
+
+Script 0 · Subdivision & an attractor
+01
+Subdivide the starting surfaces
+02
+Organize a repeating pattern
+03
+Measure the attractor relationship
+04
+Map distances into a transformation
+05
+Develop the geometric parts
+06
+Measure and label floor areas
+
+Step 01 / 06
+
+Subdivide the starting surfaces
+
+The selected surfaces are given compatible directions and subdivided into a UV grid. The division sliders control the density of the repeated system. Isotrim turns the UV domains into individual surface patches.
+
+List Item · Reverse Surface Direction · Divide Domain² · Isotrim
+
+Open detail ↗
+View complete script ↗
+Next step →
+Original script overview
+
+Script 1
+
+Rotation across the facade
+
+A distance relationship drives a varying rotation of selected facade geometry.
+
+Script 1 · Rotation across the facade
+01
+Build the surface grid
+02
+Prepare the repeated geometry
+03
+Translate distance into rotation
+04
+Reconstruct the faces
+05
+Keep area feedback visible
+
+Step 01 / 05
+
+Build the surface grid
+
+The input surfaces are subdivided. Deconstruct Brep exposes the edges of each patch, and List Item selects the curves that will carry the next operations.
+
+Divide Domain² · Isotrim · Deconstruct Brep · List Item
+
+Open detail ↗
+View complete script ↗
+Next step →
+Original script overview
+
+Script 2
+
+A diagonal facade lattice
+
+A subdivided surface becomes a repeating field of diagonal faces.
+
+Script 2 · A diagonal facade lattice
+01
+Prepare the surface boundaries
+02
+Assemble the source surfaces
+03
+Subdivide and select panel edges
+04
+Construct the diagonal faces
+05
+Repeat the system and preview
+
+Step 01 / 05
+
+Prepare the surface boundaries
+
+The upper preparation branch evaluates a reference surface and moves selected geometry along scaled directions. Curves are divided to provide points for the subsequent surface operations.
+
+Surface Closest Point · Evaluate Surface · Amplitude · Move · Divide Curve
+
+Open detail ↗
+View complete script ↗
+Next step →
+Original script overview
+
+Script 4
+
+Progressive horizontal rotation
+
+A sequence of rotations changes the orientation of horizontal elements through the height of the volume.
+
+Script 4 · Progressive horizontal rotation
+01
+Subdivide the source surfaces
+02
+Build a rotation sequence
+03
+Define an axis and rotate
+04
+Reconstruct and thicken surfaces
+05
+Close the volume and preview
+06
+Separate the outputs visually
+
+Step 01 / 06
+
+Subdivide the source surfaces
+
+Faces and edges are extracted from the source geometry. Domain divisions and Isotrim establish the surface strips, while constructed lines and Surface Split define additional subdivisions.
+
+Deconstruct Brep · Divide Domain² · Isotrim · Surface Split
+
+Open detail ↗
+View complete script ↗
+Next step →
+Original script overview
+
+Geometric feedback · Script 0
+
+Area becomes part of the drawing.
+
+Floor areas are measured and labeled directly in the model. The original outputs below show the floor sequence, individual quantities and the reporting branch.
+
+Floor-area annotations on the study geometry.
+Floor sequence and surface-area labels.
+Inspect the area calculation ↗
+
+Values shown are the outputs captured in the original study, not a new calculation.
+
+Study and diagrams by Carlos Vinocour. This walkthrough explains the operations visible in the supplied definitions and screenshots. The geometric studies do not constitute environmental or structural performance assessments.
+
+More computational work →
+
+---
+
+# Pavilion / form-finding · Carlos Vinocour
+
+URL: https://carlosvinocour.com/work/shade
+
+← Selected work
+
+research2016 · Computation
+
+Pavilion / form-finding
+
+An exploration of concrete, flexible formwork and the relationship between a repeating part and a larger field.
+
+place
+Hypothetical site
+context
+Academic exploration
+contribution
+Design and material exploration
+The pavilion at dusk, lit through its openings.
+A closer look
+
+A semi-elastic formwork combines fabric faces with rigid edges. The edges establish connections between modules, while the fabric allows the concrete to take a less predetermined form.
+
+The shell up close: each cell deepens into an opening.
+
+From experiment to module
+
+01
+Foam and membranes
+02
+The formwork
+03
+The module family
+04
+A cast piece
+05
+Assembly
+06
+Site massing
+07
+Range of shadows
+
+The study moves between material experiments, morphological references and a layered pavilion geometry. The portfolio presents both the construction logic of the module and the spatial possibilities of repetition.
+
+The shell where it meets the square.
+
+The definition and the vault
+
+01
+The Grasshopper definition
+02
+The vault it makes
+
+Academic work by Carlos Vinocour.
+
+Next in the collection
+Mohari Villas / complex geometries
+→

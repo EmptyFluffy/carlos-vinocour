@@ -94,9 +94,9 @@ window.kindHTML = id => { const r = window.kindOf(id); return r ? `<span class="
 window.titleHTML = t => { const [a, ...b] = String(t).split(' / '); return b.length ? `${E(a)}<span class="sub"> / ${E(b.join(' / '))}</span>` : E(t); };
 const eyebrowOf = (p, eyebrow) => { const r = window.kindOf(p.id), first = String(eyebrow).split(' · ')[0];
   return r ? `${window.kindHTML(p.id)}${first.toLowerCase() === r.type ? '' : `<span> · ${E(first)}</span>`}` : E(eyebrow); };
-const header = (p, eyebrow, lede) => `<a class="back" href="#/">← Selected work</a><header class="project-header"><p class="eyebrow">${eyebrowOf(p, eyebrow)}</p><h1>${window.titleHTML(p.title)}</h1>${lede ? `<p class="lede">${E(lede)}</p>` : ''}<dl class="metadata"><div><dt>Place</dt><dd>${E(p.place)}</dd></div><div><dt>Context</dt><dd>${E(p.context)}</dd></div><div><dt>Contribution</dt><dd>${E(p.role)}</dd></div></dl></header>`;
+const header = (p, eyebrow, lede) => `<a class="back" href="/">← Selected work</a><header class="project-header"><p class="eyebrow">${eyebrowOf(p, eyebrow)}</p><h1>${window.titleHTML(p.title)}</h1>${lede ? `<p class="lede">${E(lede)}</p>` : ''}<dl class="metadata"><div><dt>Place</dt><dd>${E(p.place)}</dd></div><div><dt>Context</dt><dd>${E(p.context)}</dd></div><div><dt>Contribution</dt><dd>${E(p.role)}</dd></div></dl></header>`;
 const credit = text => text ? `<p class="image-caption b-credit">${E(text)}</p>` : '';
-const nextLink = next => `<a class="next-project" href="#/work/${next.id}"><span><small>Next in the collection</small>${window.titleHTML(next.title)}</span><span aria-hidden="true">→</span></a>`;
+const nextLink = next => `<a class="next-project" href="/work/${next.id}"><span><small>Next in the collection</small>${window.titleHTML(next.title)}</span><span aria-hidden="true">→</span></a>`;
 const capOf = (p, name) => (p.images.find(i => i[0] === name) || [])[1] || p.alt;
 const closer = p => ({ h: 'A closer look', p: [p.body, p.body2] });
 

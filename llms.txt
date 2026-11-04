@@ -1,0 +1,37 @@
+# Carlos Vinocour
+
+> I’m Carlos, an architect and computational designer based in Costa Rica, with ten years across design, documentation and construction.
+
+I have worked on the architect-of-record team for houses by Zaha Hadid Architects and Antoine Predock at Peninsula Papagayo, on competitions and built work at Gensler New York, and as design lead in my own studio. I lead coordination between design architects, consultants and site, and I write the Grasshopper and Dynamo tools that carry complex geometry into Revit and construction documents.
+
+## Projects
+
+- [Mohari Villas / complex geometries](https://carlosvinocour.com/work/zha): Eight hillside villas by Zaha Hadid Architects on the Papagayo Peninsula, each under a timber shell that rises from a single trunk. I was on the architect-of-record team that made the shells…
+- [Papagayo 404 / a house extension](https://carlosvinocour.com/work/papagayo-404): An extension of about 1,100 m² to a house raised on slanted steel columns above the dry forest.
+- [Military museum / a roof of sails](https://carlosvinocour.com/work/museum): A competition entry for a military museum: a run of tensile canopies along the edge of a headland, above the sea.
+- [Bahías / thirteen houses on a ridge](https://carlosvinocour.com/work/predock): Thirteen houses by Antoine Predock along a ridge above the Gulf of Papagayo, each under a copper roof that floats free of the walls below. Built.
+- [Capital Group / an elliptical stair](https://carlosvinocour.com/work/stair): An elliptical stair through three floors of a Capital Group office in New York, from sketch to steel. Built.
+- [Mall of the Emirates / a facade as a field](https://carlosvinocour.com/work/mall): An ideas competition to give the Mall of the Emirates a new face: a field of nickel-plated tubes that shimmers as you move past it, opened by screens wherever the programme pushes out.
+- [Jabal Omar / a hotel facing the Haram](https://carlosvinocour.com/work/mecca): An invited competition for a Four Seasons hotel and two residential towers beside the Grand Mosque. Jabal Omar Development invited four firms, Foster + Partners among them.
+- [NYA / a growing town](https://carlosvinocour.com/work/nya): A mixed-use community considered as a phased and evolving urban landscape.
+- [Living system](https://carlosvinocour.com/work/housing): A housing system explored through transport, repetition and assembly.
+- [Tamarindo 2050 / water as an urban framework](https://carlosvinocour.com/work/tamarindo): My thesis: a plan for Tamarindo drawn from its water. The new grid follows the runoff of the hills, so the town gathers rain through the dry season and makes room for it in the wet one.
+- [La Perla / reading the land first](https://carlosvinocour.com/work/la-perla): A condominium on 5.7 hectares at Matapalo, planned from the ground: its height, its slope and the paths of the rain were read before a single lot was drawn.
+- [Prizma / a studio as a system](https://carlosvinocour.com/work/prizma): A live model of an architecture firm. People, projects and fees are connected on a canvas, and every change recalculates capacity, yield and pricing across the practice.
+- [Porous field](https://carlosvinocour.com/work/surface): A curved surface, a repeated opening, and a gradual change in how the whole catches the light.
+- [Facade studies](https://carlosvinocour.com/work/facades): An experiment in how subdivision, attraction and rotation can transform a shared starting geometry.
+- [Pavilion / form-finding](https://carlosvinocour.com/work/shade): An exploration of concrete, flexible formwork and the relationship between a repeating part and a larger field.
+
+## Pages
+
+- [About](https://carlosvinocour.com/about): experience, education, tools and recognition (the CV).
+- [Index](https://carlosvinocour.com/work): every project since 2013, with or without a page on this site.
+- [Architecture](https://carlosvinocour.com/architecture): the architecture projects.
+- [Computation](https://carlosvinocour.com/computation): the computational work.
+- [Notes](https://carlosvinocour.com/notes): working ideas.
+
+## Contact
+
+- Email: vinocouralvarez@gmail.com
+- LinkedIn: https://www.linkedin.com/in/carlos-vinocour-alvarez-086a88b9
+- The text of every page in one file: https://carlosvinocour.com/llms-full.txt
