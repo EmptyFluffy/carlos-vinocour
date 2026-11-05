@@ -613,7 +613,7 @@ The cloth was relaxed in Kangaroo between the masts until each canopy curved two
 The competition model in Rhino, the roof over the terraces.
 The canopy mesh as Kangaroo relaxed it between the masts.
 zoom ↗
-My Grasshopper definition: the structure and the tensile canopies, with the Kangaroo solver.
+My Grasshopper definition: the ribs, the masts, the canopy relaxed in Kangaroo and the facade. Moved to Kangaroo 2 in 2026.
 
 Inspiration
 

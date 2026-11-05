@@ -199,7 +199,7 @@ const LAYOUTS = {
         'museum/evening', 'The canopies lit at dusk, over the path along the headland.'),
       group('The canopy, form-found', 'The cloth was relaxed in Kangaroo between the masts until each canopy curved two ways at once, like a sail.',
         row([['museum/rhino-model', 'The competition model in Rhino, the roof over the terraces.'], ['museum/mesh-axo-2', 'The canopy mesh as Kangaroo relaxed it between the masts.']], { ink: true }) +
-        canvas('museum/gh-canvas', 'My Grasshopper definition: the structure and the tensile canopies, with the Kangaroo solver.', { label: 'Grasshopper: the canopy definition' })),
+        canvas('museum/gh-canvas', 'My Grasshopper definition: the ribs, the masts, the canopy relaxed in Kangaroo and the facade. Moved to Kangaroo 2 in 2026.', { label: 'Grasshopper: the canopy definition' })),
       `<section><p class="eyebrow">Inspiration</p>${row([
         ['museum/sail-defender', 'Defender, 1895. Photograph: John S. Johnston.'],
         ['museum/sail-shamrock-ii', 'Shamrock II, 1901. Photograph: Detroit Publishing Co.'],
