@@ -333,7 +333,6 @@ const LAYOUTS = {
       group('The skin: tubes, light and screens', 'The skin never reads the same twice: the nickel answers the sun and the viewer, and the screens set into it change with the programme.',
         row([['mall/skin-screen', 'Where the programme pushes out, the tubes part around a screen.'], ['mall/skin-field', 'The field of tubes around the middle screen.'], ['mall/skin-tubes', 'Tube by tube, each catching the light at its own angle.']])),
       sheet('Screen tests on the same frame', [['mall/test-white', 'White'], ['mall/test-pink', 'A pink wave'], ['mall/test-blue', 'A blue wave']], { cols: 3, dark: true }),
-      sheet('Shadow studies of the tube field, in V-Ray', [['mall/scrim-1', 'Study 1'], ['mall/scrim-2', 'Study 2'], ['mall/scrim-3', 'Study 3'], ['mall/scrim-4', 'Study 4']], { cols: 4, dark: true }),
       // the facade script, rebuilt in 2026 (tools/gh-build/mall.py): the original belongs to Gensler
       group('The facade script, rebuilt', '', canvas('mall/gh-canvas', 'The facade script, rebuilt in 2026: a tube at every node of the facade, its depth from noise, a rise around each screen and no tubes inside it.', { label: 'Grasshopper: the tube field (rebuilt 2026)' })),
       panel('mall/tubes-elevation', 'The tube field in elevation, 9,632 tubes around five screens.'),

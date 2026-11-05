@@ -880,17 +880,6 @@ A pink wave
 03
 A blue wave
 
-Shadow studies of the tube field, in V-Ray
-
-01
-Study 1
-02
-Study 2
-03
-Study 3
-04
-Study 4
-
 The facade script, rebuilt
 
 zoom ↗
