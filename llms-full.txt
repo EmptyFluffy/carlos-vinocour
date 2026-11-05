@@ -774,7 +774,65 @@ The elliptical run
 Through the three floors.
 Another view.
 
-Architecture and interiors: Gensler New York. Renderings: Gensler. Built.
+The set-out, rebuilt
+
+I rebuilt the set-out in Grasshopper in 2026 to show the method; the original file belongs to Gensler. The floor-to-floor height is its one input: change it and the run recalculates.
+
+zoom ↗
+The set-out definition, rebuilt in 2026: seven groups, from the height to the fabricator's table.
+
+One input, three heights
+
+01
+12 ft: 21 risers, 20 treads, 5.60 m of run
+02
+14 ft: 24 risers, 23 treads, 6.44 m of run
+03
+16 ft: 28 risers, 27 treads, 7.56 m of run
+
+The set-out in four steps
+
+Each canvas is shown whole, with a box on the groups that do the step, and then those groups. Open either to zoom.
+
+01
+From the height to the risers
+
+The floor-to-floor height is divided by the maximum riser, 7 inches, and rounded up: that is the number of risers. The riser is the height over that number, the treads are one fewer, and the run on the walkline is the treads times an 11-inch going.
+
+zoom ↗
+The definition, whole.
+zoom ↗
+Groups 01 and 02: the inputs, then the risers from the height.
+02
+The run finds its own end
+
+The walkline is an ellipse. Measured along it, the length of the run gives the point where the stair stops, so a taller floor carries the stair further round. The run is then divided into equal goings.
+
+zoom ↗
+The definition, whole.
+zoom ↗
+Group 03: the ellipse, measured to the length of the run.
+03
+Edges, treads and risers
+
+The walkline sits 12 inches from the inner edge. Both edges are offset from it, each division is carried across to them as a tread line, and each tread is lifted one riser above the last.
+
+zoom ↗
+The definition, whole.
+zoom ↗
+Groups 04 and 05: the tread lines in plan, then the treads and risers.
+04
+Guard, handrail and the table
+
+The nosings along each edge make the stringers. The handrail follows them 42 inches up, with a baluster every 4 inches, and the last group lists every nosing, inner and outer, in x, y and z for the fabricator.
+
+zoom ↗
+The definition, whole.
+zoom ↗
+Groups 06 and 07: the guard, then the set-out table.
+The set-out in plan at 14 ft: the two edges and the 24 tread lines.
+
+Architecture and interiors: Gensler New York. Renderings: Gensler. Built. The set-out definition rebuilt by Carlos Vinocour in 2026.
 
 Next in the collection
 Mall of the Emirates / a facade as a field

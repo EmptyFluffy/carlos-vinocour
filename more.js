@@ -136,6 +136,17 @@ const MOHARI_STEPS = [
     'zha/step-5-all', 'Dynamo: SAT solids to families, whole.', 'zha/step-5-zoom', 'K-Family Insert.', 'Dynamo: solids to families'],
 ];
 
+const STAIR_STEPS = [
+  ['From the height to the risers', 'The floor-to-floor height is divided by the maximum riser, 7 inches, and rounded up: that is the number of risers. The riser is the height over that number, the treads are one fewer, and the run on the walkline is the treads times an 11-inch going.',
+    'stair/step-1-all', 'The definition, whole.', 'stair/step-1-zoom', 'Groups 01 and 02: the inputs, then the risers from the height.', 'Grasshopper: risers from the height'],
+  ['The run finds its own end', 'The walkline is an ellipse. Measured along it, the length of the run gives the point where the stair stops, so a taller floor carries the stair further round. The run is then divided into equal goings.',
+    'stair/step-2-all', 'The definition, whole.', 'stair/step-2-zoom', 'Group 03: the ellipse, measured to the length of the run.', 'Grasshopper: the walkline'],
+  ['Edges, treads and risers', 'The walkline sits 12 inches from the inner edge. Both edges are offset from it, each division is carried across to them as a tread line, and each tread is lifted one riser above the last.',
+    'stair/step-3-all', 'The definition, whole.', 'stair/step-3-zoom', 'Groups 04 and 05: the tread lines in plan, then the treads and risers.', 'Grasshopper: treads and risers'],
+  ['Guard, handrail and the table', 'The nosings along each edge make the stringers. The handrail follows them 42 inches up, with a baluster every 4 inches, and the last group lists every nosing, inner and outer, in x, y and z for the fabricator.',
+    'stair/step-4-all', 'The definition, whole.', 'stair/step-4-zoom', 'Groups 06 and 07: the guard, then the set-out table.', 'Grasshopper: guard and set-out'],
+];
+
 const LAYOUTS = {
   'la-perla': {
     eyebrow: 'Master plan · Site analysis',
@@ -247,7 +258,14 @@ const LAYOUTS = {
       row([['stair/interior', 'The stair on the 34th floor. Rendering: Gensler.'], ['stair/reception-34', 'The 34th floor reception. Rendering: Gensler.']]),
       sheet('From sketch to steel', [['stair/sketch-1-k', 'Concept sketch'], ['stair/sketch-2-k', 'The landing'], ['stair/rhino-k', 'Modelled in Rhino'], ['stair/rhino-setout-k', 'The elliptical run']], { cols: 4 }),
       row([['stair/view-1', 'Through the three floors.'], ['stair/view-2', 'Another view.']], { max: 760 }),
+      // the set-out definition, rebuilt in 2026 (tools/stair_steps.py): the original file belongs to Gensler
+      group('The set-out, rebuilt', 'I rebuilt the set-out in Grasshopper in 2026 to show the method; the original file belongs to Gensler. The floor-to-floor height is its one input: change it and the run recalculates.',
+        canvas('stair/gh-canvas', 'The set-out definition, rebuilt in 2026: seven groups, from the height to the fabricator\'s table.', { label: 'Grasshopper: the stair set-out (rebuilt 2026)' })),
+      sheet('One input, three heights', [['stair/run-12ft', '12 ft: 21 risers, 20 treads, 5.60 m of run'], ['stair/run-14ft', '14 ft: 24 risers, 23 treads, 6.44 m of run'], ['stair/run-16ft', '16 ft: 28 risers, 27 treads, 7.56 m of run']], { cols: 3 }),
+      steps('The set-out in four steps', 'Each canvas is shown whole, with a box on the groups that do the step, and then those groups. Open either to zoom.', STAIR_STEPS),
+      row([['stair/setout-plan', 'The set-out in plan at 14 ft: the two edges and the 24 tread lines.']], { max: 760, ink: true }),
     ],
+    credit: 'Architecture and interiors: Gensler New York. Renderings: Gensler. Built. The set-out definition rebuilt by Carlos Vinocour in 2026.',
   },
   tamarindo: {
     cls: 'muted',   // the thesis's analysis sheets were graded hot: less saturation and contrast, as in the C1 portfolio (not the renders, redone 2026-10-30)
