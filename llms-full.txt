@@ -891,6 +891,14 @@ Study 3
 04
 Study 4
 
+The facade script, rebuilt
+
+zoom ↗
+The facade script, rebuilt in 2026: a tube at every node of the facade, its depth from noise, a rise around each screen and no tubes inside it.
+The tube field in elevation, 9,632 tubes around five screens.
+The facade, pinched in plan at the centre.
+The tubes rise around a screen.
+
 From geometry to documentation
 
 01
@@ -920,7 +928,7 @@ One study
 02
 Another
 
-Ideas competition: Gensler, 2018. Images: Gensler.
+Ideas competition: Gensler, 2018. Images: Gensler. The facade script rebuilt by Carlos Vinocour in 2026.
 
 Next in the collection
 Jabal Omar / a hotel facing the Haram
