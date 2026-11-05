@@ -259,7 +259,7 @@ const LAYOUTS = {
       sheet('From sketch to steel', [['stair/sketch-1-k', 'Concept sketch'], ['stair/sketch-2-k', 'The landing'], ['stair/rhino-k', 'Modelled in Rhino'], ['stair/rhino-setout-k', 'The elliptical run']], { cols: 4 }),
       row([['stair/view-1', 'Through the three floors.'], ['stair/view-2', 'Another view.']], { max: 760 }),
       // the set-out definition, rebuilt in 2026 (tools/stair_steps.py): the original file belongs to Gensler
-      group('The set-out, rebuilt', 'I rebuilt the set-out in Grasshopper in 2026 to show the method; the original file belongs to Gensler. The floor-to-floor height is its one input: change it and the run recalculates.',
+      group('The set-out, rebuilt', '',
         canvas('stair/gh-canvas', 'The set-out definition, rebuilt in 2026: seven groups, from the height to the fabricator\'s table.', { label: 'Grasshopper: the stair set-out (rebuilt 2026)' })),
       sheet('One input, three heights', [['stair/run-12ft', '12 ft: 21 risers, 20 treads, 5.60 m of run'], ['stair/run-14ft', '14 ft: 24 risers, 23 treads, 6.44 m of run'], ['stair/run-16ft', '16 ft: 28 risers, 27 treads, 7.56 m of run']], { cols: 3 }),
       steps('The set-out in four steps', 'Each canvas is shown whole, with a box on the groups that do the step, and then those groups. Open either to zoom.', STAIR_STEPS),

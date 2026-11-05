@@ -776,8 +776,6 @@ Another view.
 
 The set-out, rebuilt
 
-I rebuilt the set-out in Grasshopper in 2026 to show the method; the original file belongs to Gensler. The floor-to-floor height is its one input: change it and the run recalculates.
-
 zoom ↗
 The set-out definition, rebuilt in 2026: seven groups, from the height to the fabricator's table.
 
