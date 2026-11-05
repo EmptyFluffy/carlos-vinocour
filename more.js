@@ -351,11 +351,11 @@ const LAYOUTS = {
       side({ h: 'Views as a design input.', p: ['One script scored every room by what it could see of the Haram; a second set the openings and balconies from that score, tower by tower.',
         'The massing was worked out in ten steps, from the platform over the levels of the site to the towers set on the line to the Kaaba, each step checked against the view.'] }, 'mecca/orientation-k', 'The towers on the line to the Kaaba.', { ink: true, flip: true }),
       sheet('Design generation', Array.from({ length: 10 }, (_, i) => [`mecca/gen-${String(i + 1).padStart(2, '0')}-k`, `Step ${String(i + 1).padStart(2, '0')}`]), { strip: true, cols: 5, numbers: false }),
-      row([['mecca/cores', 'The cores, tower by tower.']], { max: 460, ink: true }),   // from the 2017 portfolio, p. 19, its slate ground made white (2026-11-05)
       row([['mecca/aerial', 'The scheme in the city at night.'], ['mecca/tower', 'The hotel and residential towers at dusk.']]),
       // the view script, rebuilt in 2026 on simplified massing (tools/gh-build/jabal.py): the original belongs to Gensler
       group('The view script, rebuilt', '', canvas('mecca/gh-canvas', 'The view script, rebuilt in 2026 on simplified massing: rays from 1,365 rooms to the Kaaba and the courtyard, a score for each room, then its opening and balcony.', { label: 'Grasshopper: views to the Haram (rebuilt 2026)' })),
-      row([['mecca/rays', 'Rays from each room to the Kaaba: gold where they get through, red where something is in the way.']], { max: 900, ink: true }),
+      // the cores (2017 portfolio, p. 19, its slate ground made white) beside the rays, both cut to one proportion (tools/jabal-src)
+      row([['mecca/cores', 'The cores, tower by tower.'], ['mecca/rays', 'Rays from each room to the Kaaba: gold where they get through, red where something is in the way.']], { ink: true }),
     ],
     credit: 'Invited competition: Gensler, 2016. The view script rebuilt by Carlos Vinocour in 2026, on simplified massing.',
   },
