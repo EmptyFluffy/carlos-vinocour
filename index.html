@@ -4,21 +4,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <base href="/">
-  <meta name="theme-color" content="#f7f6f2">
+  <meta name="theme-color" content="#f5f4f0">
   <meta name="description" content="Carlos Vinocour, architect and computational designer. Selected work and an index of everything since 2013.">
   <title>Carlos Vinocour · Selected work</title>
   <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css?v=889241d">
-  <link rel="preload" href="assets/fonts/familjen-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css?v=6c60739">
+  <link rel="stylesheet" href="theme.css?v=6c60739">
+  <link rel="preload" href="assets/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/geist-mono.woff2" as="font" type="font/woff2" crossorigin>
-  <script src="projects.js?v=889241d" defer></script>
-  <script src="hcp.js?v=889241d" defer></script>
-  <script src="surface.js?v=889241d" defer></script>
-<script src="assets/sizes.js?v=889241d" defer></script>
-<script src="data.js?v=889241d" defer></script>
-<script src="field.js?v=889241d" defer></script>
-<script src="more.js?v=889241d" defer></script>
-<script src="app.js?v=889241d" defer></script>
+  <script src="projects.js?v=6c60739" defer></script>
+  <script src="hcp.js?v=6c60739" defer></script>
+  <script src="surface.js?v=6c60739" defer></script>
+<script src="assets/sizes.js?v=6c60739" defer></script>
+<script src="data.js?v=6c60739" defer></script>
+<script src="more.js?v=6c60739" defer></script>
+<script src="model.js?v=6c60739" defer></script>
+<script src="app.js?v=6c60739" defer></script>
   <link rel="canonical" href="https://carlosvinocour.com/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Carlos Vinocour">
@@ -33,25 +34,68 @@
 </head>
 <body>
   <a class="skip" href="#content">Skip to content</a>
-  <aside class="sidebar">
-    <a class="name" href="/">carlos vinocour</a>
-    <p class="profession">architect &amp; <br>design technologist</p>
-    <nav aria-label="Main navigation">
-      <a href="/" data-nav="all" class="active" aria-current="page">selected work</a>
-      <a href="/architecture" data-nav="architecture">architecture</a>
-      <a href="/computation" data-nav="computation">computation</a>
-      <a href="/notes" data-nav="notes">notes</a>
-      <a href="/work" data-nav="index">index</a>
-      <a href="/about" data-nav="about">about</a>
+  <header class="bar" data-bar>
+    <a class="who" href="/">Carlos Vinocour</a>
+    <button type="button" class="menu-btn" data-menu aria-expanded="false" aria-controls="main-nav">Menu</button>
+    <nav aria-label="Main navigation" id="main-nav">
+      <a href="/" data-nav="all">Work</a>
+      <a href="/work" data-nav="index">Index</a>
+      <a href="/notes" data-nav="notes">Notes</a>
+      <a href="/about" data-nav="about">About</a>
+      <a href="mailto:vinocouralvarez@gmail.com">Contact</a>
     </nav>
-    <div class="sidebar-bottom">
-      <svg class="mark" viewBox="0 0 110 110" fill="none" aria-hidden="true"><path d="M82 14C47 17 20 35 18 61C16 88 42 100 64 91C87 81 93 54 78 39C64 25 40 34 34 52C28 69 41 81 56 77C70 73 75 59 67 51C60 44 48 48 46 57C44 65 52 69 58 64C62 61 61 56 57 56" stroke="currentColor" stroke-width=".8"/></svg>
-      <p>San José, Costa Rica</p>
-      <a class="text-link" href="mailto:vinocouralvarez@gmail.com">get in touch <span aria-hidden="true">↗</span></a>
-      <small>Selected work 2016–2026</small>
+  </header>
+  <main id="content" tabindex="-1" data-pre="/">
+  <h1 class="vh">Carlos Vinocour, architect and computational designer</h1>
+  <section class="hero" data-hero aria-roledescription="carousel" aria-label="Selected work, as models">
+    <canvas data-canvas aria-hidden="true"></canvas>
+    <img class="photo" data-photo alt="">
+    <div class="title">
+      <p class="code mono"><span data-code>W01</span><span data-yr></span></p>
+      <h2 class="name" aria-live="polite"><a data-name href="/work/zha"><span>Mohari Villas</span></a></h2>
+      <div class="actions">
+        <a class="go" data-open href="/work/zha">View project <span aria-hidden="true">→</span></a>
+        <div class="step" role="group" aria-label="Change project">
+          <button type="button" data-prev aria-label="Previous project">←</button>
+          <span class="mono" data-count>01 / 11</span>
+          <button type="button" data-next aria-label="Next project">→</button>
+          <button type="button" class="pause" data-pause aria-pressed="false" aria-label="Pause the slideshow"><i></i></button>
+        </div>
+      </div>
     </div>
-  </aside>
-  <main id="content" tabindex="-1" data-pre="/"><div class="home-top"><header class="intro"><h1>A collection of spaces, systems,<br>and things in progress.</h1><p>Selected work & ongoing studies</p></header><figure class="home-field" aria-hidden="true"><div class="field"><canvas></canvas></div></figure></div><section class="gallery" aria-label="Selected work"><a class="card zha" href="/work/zha" aria-label="Mohari Villas"><div class="visual"><img src="assets/zha/int-bedroom.webp" srcset="assets/w/640/zha/int-bedroom.webp 640w, assets/w/1280/zha/int-bedroom.webp 1280w, assets/w/1920/zha/int-bedroom.webp 1920w, assets/zha/int-bedroom.webp 2716w" sizes="(max-width:390px) 100vw, (max-width:1150px) 50vw, 33vw" alt=""A Mohari villa bedroom at night, seen from the garden under the shell" fetchpriority="high" width="600" height="430"></div><h2 class="card-name">Mohari Villas</h2></a><a class="card papagayo-404" href="/work/papagayo-404" aria-label="Papagayo 404"><div class="visual"><img src="assets/p404/1.webp" srcset="assets/w/640/p404/1.webp 640w, assets/p404/1.webp 1484w" sizes="(max-width:390px) 100vw, (max-width:1150px) 50vw, 33vw" alt=""A white house on slanted steel columns above an infinity pool and timber decks" loading="lazy" width="600" height="430"></div><h2 class="card-name">Papagayo 404</h2></a><a class="card museum" href="/work/museum" aria-label="Military museum"><div class="visual"><img src="assets/museum/aerial.webp" srcset="assets/w/640/museum/aerial.webp 640w, assets/w/1280/museum/aerial.webp 1280w, assets/museum/aerial.webp 1600w" sizes="(max-width:390px) 100vw, (max-width:1150px) 50vw, 33vw" alt=""A run of tensile canopies on a headland above a bay with islands" loading="lazy" width="600" height="430"></div><h2 class="card-name">Military museum</h2></a><a class="card predock" href="/work/predock" aria-label="Bahías"><div class="visual"><img src="assets/bahias/cluster-7-8-9.webp" srcset="assets/w/640/bahias/cluster-7-8-9.webp 640w, assets/w/1280/bahias/cluster-7-8-9.webp 1280w, assets/w/1920/bahias/cluster-7-8-9.webp 1920w, assets/bahias/cluster-7-8-9.webp 2600w" sizes="(max-width:390px) 100vw, (max-width:1150px) 50vw, 33vw" alt=""A Bahías house under its copper roof in the dry forest above the bay" loading="lazy" width="600" height="430"></div><h2 class="card-name">Bahías</h2></a><a class="card stair" href="/work/stair" aria-label="Capital Group"><div class="visual"><img src="assets/stair/perspective.webp" srcset="assets/w/640/stair/perspective.webp 640w, assets/w/1280/stair/perspective.webp 1280w, assets/stair/perspective.webp 1649w" sizes="(max-width:390px) 100vw, (max-width:1150px) 50vw, 33vw" alt=""Curving stair connecting floors of a New York workplace" loading="lazy" width="600" height="430"></div><h2 class="card-name">Capital Group</h2></a><a class="card mall" href="/work/mall" aria-label="Mall of the Emirates"><div class="visual"><img src="assets/mall/exterior.webp" srcset="assets/w/640/mall/exterior.webp 640w, assets/w/1280/mall/exterior.webp 1280w, assets/w/1920/mall/exterior.webp 1920w, assets/mall/exterior.webp 3200w" sizes="(max-width:390px) 100vw, (max-width:1150px) 50vw, 33vw" alt=""Facade proposal with cubic fields and colored light for Mall of the Emirates" loading="lazy" width="600" height="430"></div><h2 class="card-name">Mall of the Emirates</h2></a><a class="card mecca" href="/work/mecca" aria-label="Jabal Omar"><div class="visual"><img src="assets/mecca/terrace.webp" srcset="assets/w/640/mecca/terrace.webp 640w, assets/w/1280/mecca/terrace.webp 1280w, assets/w/1920/mecca/terrace.webp 1920w, assets/mecca/terrace.webp 2400w" sizes="(max-width:390px) 100vw, (max-width:1150px) 50vw, 33vw" alt=""A hotel terrace in Mecca facing the Grand Mosque at sunset" loading="lazy" width="600" height="430"></div><h2 class="card-name">Jabal Omar</h2></a><a class="card nya" href="/work/nya" aria-label="NYA"><div class="visual"><img src="assets/nya/town-center.webp" srcset="assets/w/640/nya/town-center.webp 640w, assets/w/1280/nya/town-center.webp 1280w, assets/w/1920/nya/town-center.webp 1920w, assets/nya/town-center.webp 2600w" sizes="(max-width:390px) 100vw, (max-width:1150px) 50vw, 33vw" alt=""Shaded pedestrian space within a tropical mixed-use development" loading="lazy" width="600" height="430"></div><h2 class="card-name">NYA</h2></a><a class="card housing" href="/work/housing" aria-label="Living system"><div class="visual"><img src="assets/housing/night.webp" srcset="assets/w/640/housing/night.webp 640w, assets/w/1280/housing/night.webp 1280w, assets/w/1920/housing/night.webp 1920w, assets/housing/night.webp 3000w" sizes="(max-width:390px) 100vw, (max-width:1150px) 50vw, 33vw" alt=""Three small modular houses with expressive timber-colored pitched roofs" loading="lazy" width="600" height="430"></div><h2 class="card-name">Living system</h2></a><a class="card tamarindo" href="/work/tamarindo" aria-label="Tamarindo 2050"><div class="visual"><img src="assets/tamarindo/render.webp" srcset="assets/w/640/tamarindo/render.webp 640w, assets/tamarindo/render.webp 1536w" sizes="(max-width:390px) 100vw, (max-width:1150px) 50vw, 33vw" alt=""Elevated architectural proposal associated with a water-led urban study" loading="lazy" width="600" height="430"></div><h2 class="card-name">Tamarindo 2050</h2></a><a class="card la-perla light" href="/work/la-perla" aria-label="La Perla"><div class="visual"><img src="assets/la-perla/stack.webp" srcset="assets/w/640/la-perla/stack.webp 640w, assets/w/1280/la-perla/stack.webp 1280w, assets/la-perla/stack.webp 1616w" sizes="(max-width:390px) 100vw, (max-width:1150px) 50vw, 33vw" alt=""Master plan collage over an aerial of the land: houses along a road that ends in a turning circle" loading="lazy" width="600" height="430"></div><h2 class="card-name">La Perla</h2></a><a class="card prizma light" href="/work/prizma" aria-label="Prizma"><div class="visual"><img src="assets/prizma/mockup.webp" srcset="assets/w/640/prizma/mockup.webp 640w, assets/w/1280/prizma/mockup.webp 1280w, assets/w/1920/prizma/mockup.webp 1920w, assets/prizma/mockup.webp 2400w" sizes="(max-width:390px) 100vw, (max-width:1150px) 50vw, 33vw" alt=""A canvas of connected cards: staff, projects, teams and the firm, each with live figures" loading="lazy" width="600" height="430"></div><h2 class="card-name">Prizma</h2></a><a class="card surface" href="/work/surface" aria-label="Porous field"><div class="visual"><img src="assets/surface-cover.webp" srcset="assets/w/640/surface-cover.webp 640w, assets/surface-cover.webp 1472w" sizes="(max-width:390px) 100vw, (max-width:1150px) 50vw, 33vw" alt=""A curved perforated surface with iridescent reflections" loading="lazy" width="600" height="430"></div><h2 class="card-name">Porous field</h2></a><a class="card facades light" href="/work/facades" aria-label="Facade studies"><div class="visual"><picture><source srcset="assets/hcp/facades-still.webp" media="(prefers-reduced-motion: reduce)"><img src="assets/hcp/facades.webp" alt=""A white tower study with progressively rotating horizontal elements" loading="lazy" width="600" height="430"></picture></div><h2 class="card-name">Facade studies</h2></a><a class="card shade" href="/work/shade" aria-label="Pavilion"><div class="visual"><img src="assets/shade/dusk-card.webp" srcset="assets/w/640/shade/dusk-card.webp 640w, assets/shade/dusk-card.webp 1548w" sizes="(max-width:390px) 100vw, (max-width:1150px) 50vw, 33vw" alt=""A perforated shell pavilion of repeating concrete modules, lit from within at dusk" loading="lazy" width="600" height="430"></div><h2 class="card-name">Pavilion</h2></a></section><footer class="footer"><span>Carlos Vinocour · Architecture, computation &amp; ongoing studies</span><a href="mailto:vinocouralvarez@gmail.com">Start a conversation ↗</a></footer></main>
+    <ol class="rail" data-rail aria-label="Projects"><li><a href="/work/zha" data-i="0">Mohari Villas<b>01</b></a><i></i></li><li><a href="/work/predock" data-i="1">Bahías<b>02</b></a><i></i></li><li><a href="/work/museum" data-i="2">Military museum<b>03</b></a><i></i></li><li><a href="/work/stair" data-i="3">Capital Group<b>04</b></a><i></i></li><li><a href="/work/mall" data-i="4">Mall of the Emirates<b>05</b></a><i></i></li><li><a href="/work/mecca" data-i="5">Jabal Omar<b>06</b></a><i></i></li><li><a href="/work/nya" data-i="6">NYA<b>07</b></a><i></i></li><li><a href="/work/tamarindo" data-i="7">Tamarindo 2050<b>08</b></a><i></i></li><li><a href="/work/shade" data-i="8">Pavilion<b>09</b></a><i></i></li><li><a href="/work/facades" data-i="9">Facade studies<b>10</b></a><i></i></li><li><a href="/work/surface" data-i="10">Porous field<b>11</b></a><i></i></li></ol>
+    <div class="readout mono">
+      <div class="modes" role="group" aria-label="Display mode">
+        <button type="button" data-mode="model" aria-pressed="true">Model</button>
+        <button type="button" data-mode="photo" aria-pressed="false">Photo</button>
+      </div>
+      <span class="scale" data-scale><i></i><b></b></span>
+      <span class="src" data-src></span>
+    </div>
+    <p class="hint mono" data-hint>Drag to orbit</p>
+  </section>
+  <div class="v2-home">
+    <section class="sec" id="work">
+      <p class="code mono">W</p>
+      <h2 class="big">Selected work.</h2>
+      <div class="cards"><a class="card" href="/work/zha"><span class="ph"><img src="assets/zha/int-bedroom.webp" srcset="assets/w/640/zha/int-bedroom.webp 640w, assets/w/1280/zha/int-bedroom.webp 1280w, assets/w/1920/zha/int-bedroom.webp 1920w, assets/zha/int-bedroom.webp 2716w" sizes="auto, (max-width:700px) 100vw, 75vw" alt="" loading="lazy" decoding="async"></span><span class="cap"><span>Mohari Villas</span><b>2021–2023</b></span></a><a class="card" href="/work/predock"><span class="ph"><img src="assets/bahias/cluster-7-8-9.webp" srcset="assets/w/640/bahias/cluster-7-8-9.webp 640w, assets/w/1280/bahias/cluster-7-8-9.webp 1280w, assets/w/1920/bahias/cluster-7-8-9.webp 1920w, assets/bahias/cluster-7-8-9.webp 2600w" sizes="auto, (max-width:700px) 100vw, 75vw" alt="" loading="lazy" decoding="async"></span><span class="cap"><span>Bahías</span><b>2021–2025</b></span></a><a class="card" href="/work/museum"><span class="ph"><img src="assets/museum/aerial.webp" srcset="assets/w/640/museum/aerial.webp 640w, assets/w/1280/museum/aerial.webp 1280w, assets/museum/aerial.webp 1600w" sizes="auto, (max-width:700px) 100vw, 75vw" alt="" loading="lazy" decoding="async"></span><span class="cap"><span>Military museum</span><b>2018</b></span></a><a class="card" href="/work/stair"><span class="ph"><img src="assets/stair/perspective.webp" srcset="assets/w/640/stair/perspective.webp 640w, assets/w/1280/stair/perspective.webp 1280w, assets/stair/perspective.webp 1649w" sizes="auto, (max-width:700px) 100vw, 75vw" alt="" loading="lazy" decoding="async"></span><span class="cap"><span>Capital Group</span><b>2018</b></span></a><a class="card" href="/work/mall"><span class="ph"><img src="assets/mall/exterior.webp" srcset="assets/w/640/mall/exterior.webp 640w, assets/w/1280/mall/exterior.webp 1280w, assets/w/1920/mall/exterior.webp 1920w, assets/mall/exterior.webp 3200w" sizes="auto, (max-width:700px) 100vw, 75vw" alt="" loading="lazy" decoding="async"></span><span class="cap"><span>Mall of the Emirates</span><b>2018</b></span></a><a class="card" href="/work/mecca"><span class="ph"><img src="assets/mecca/terrace.webp" srcset="assets/w/640/mecca/terrace.webp 640w, assets/w/1280/mecca/terrace.webp 1280w, assets/w/1920/mecca/terrace.webp 1920w, assets/mecca/terrace.webp 2400w" sizes="auto, (max-width:700px) 100vw, 75vw" alt="" loading="lazy" decoding="async"></span><span class="cap"><span>Jabal Omar</span><b>2016</b></span></a><a class="card" href="/work/nya"><span class="ph"><img src="assets/nya/town-center.webp" srcset="assets/w/640/nya/town-center.webp 640w, assets/w/1280/nya/town-center.webp 1280w, assets/w/1920/nya/town-center.webp 1920w, assets/nya/town-center.webp 2600w" sizes="auto, (max-width:700px) 100vw, 75vw" alt="" loading="lazy" decoding="async"></span><span class="cap"><span>NYA</span><b>2018</b></span></a><a class="card" href="/work/tamarindo"><span class="ph"><img src="assets/tamarindo/render.webp" srcset="assets/w/640/tamarindo/render.webp 640w, assets/tamarindo/render.webp 1536w" sizes="auto, (max-width:700px) 100vw, 75vw" alt="" loading="lazy" decoding="async"></span><span class="cap"><span>Tamarindo 2050</span><b>2017</b></span></a><a class="card" href="/work/shade"><span class="ph"><img src="assets/shade/dusk-card.webp" srcset="assets/w/640/shade/dusk-card.webp 640w, assets/shade/dusk-card.webp 1548w" sizes="auto, (max-width:700px) 100vw, 75vw" alt="" loading="lazy" decoding="async"></span><span class="cap"><span>Pavilion</span><b>2016</b></span></a><a class="card" href="/work/facades"><span class="ph"><img src="assets/hcp/facades-still.webp" alt="" loading="lazy" decoding="async"></span><span class="cap"><span>Facade studies</span><b>2023</b></span></a><a class="card" href="/work/surface"><span class="ph"><img src="assets/surface-cover.webp" srcset="assets/w/640/surface-cover.webp 640w, assets/surface-cover.webp 1472w" sizes="auto, (max-width:700px) 100vw, 75vw" alt="" loading="lazy" decoding="async"></span><span class="cap"><span>Porous field</span><b>2024</b></span></a><a class="card" href="/work/papagayo-404"><span class="ph"><img src="assets/p404/1.webp" srcset="assets/w/640/p404/1.webp 640w, assets/p404/1.webp 1484w" sizes="auto, (max-width:700px) 100vw, 75vw" alt="" loading="lazy" decoding="async"></span><span class="cap"><span>Papagayo 404</span><b>2020</b></span></a><a class="card" href="/work/housing"><span class="ph"><img src="assets/housing/night.webp" srcset="assets/w/640/housing/night.webp 640w, assets/w/1280/housing/night.webp 1280w, assets/w/1920/housing/night.webp 1920w, assets/housing/night.webp 3000w" sizes="auto, (max-width:700px) 100vw, 75vw" alt="" loading="lazy" decoding="async"></span><span class="cap"><span>Living system</span><b>2017</b></span></a><a class="card" href="/work/la-perla"><span class="ph"><img src="assets/la-perla/stack.webp" srcset="assets/w/640/la-perla/stack.webp 640w, assets/w/1280/la-perla/stack.webp 1280w, assets/la-perla/stack.webp 1616w" sizes="auto, (max-width:700px) 100vw, 75vw" alt="" loading="lazy" decoding="async"></span><span class="cap"><span>La Perla</span><b>2021</b></span></a><a class="card" href="/work/prizma"><span class="ph"><img src="assets/prizma/mockup.webp" srcset="assets/w/640/prizma/mockup.webp 640w, assets/w/1280/prizma/mockup.webp 1280w, assets/w/1920/prizma/mockup.webp 1920w, assets/prizma/mockup.webp 2400w" sizes="auto, (max-width:700px) 100vw, 75vw" alt="" loading="lazy" decoding="async"></span><span class="cap"><span>Prizma</span><b>2026</b></span></a></div>
+      <a class="more" href="/work">All 74 projects in the index <span aria-hidden="true">→</span></a>
+    </section>
+    <section class="sec" id="about">
+      <p class="code mono">A1</p>
+      <h2 class="big">Architect and computational designer in Costa Rica, ten years across design, documentation and construction.</h2>
+      <div class="cols">
+        <p>I have worked on the architect-of-record team for houses by Zaha Hadid Architects and Antoine Predock at Peninsula Papagayo, on competitions and built work at Gensler New York, and as design lead in my own studio.</p>
+        <p>I lead coordination between design architects, consultants and site, and I write the Grasshopper and Dynamo tools that carry complex geometry into Revit and construction documents. <a href="/about">More, and the CV</a>.</p>
+      </div>
+    </section>
+    <section class="sec" id="contact">
+      <p class="code mono">C1</p>
+      <h2 class="big">For collaborations and conversations.</h2>
+      <a class="mail" href="mailto:vinocouralvarez@gmail.com">vinocouralvarez@gmail.com</a>
+      <p class="links"><a href="https://www.linkedin.com/in/carlos-vinocour-alvarez-086a88b9" target="_blank" rel="noopener">LinkedIn ↗</a><a href="https://cava.design/" target="_blank" rel="noopener">Studio CAVA ↗</a></p>
+    </section>
+  </div><footer class="foot mono"><span>Carlos Vinocour, architect (CFIA)</span><span>San José, Costa Rica</span><a href="mailto:vinocouralvarez@gmail.com">vinocouralvarez@gmail.com</a></footer></main>
   <dialog id="lightbox" aria-label="Enlarged project image">
     <button class="close" aria-label="Close enlarged image">close ×</button>
     <img alt=""><p></p>

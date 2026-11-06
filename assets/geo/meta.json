@@ -1,0 +1,129 @@
+{
+ "n": 6000,
+ "models": {
+  "zha": {
+   "source": "CURVES.3dm",
+   "what": "canopy linework, layers A, B, C",
+   "year": "2022",
+   "file": true,
+   "size": [
+    46.87,
+    31.33,
+    13.73
+   ]
+  },
+  "museum": {
+   "source": "Cubierta Kangaroo.3dm",
+   "what": "canopy mesh, 3,312 edges",
+   "year": "2018",
+   "file": true,
+   "size": [
+    131.14,
+    58.8,
+    13.15
+   ]
+  },
+  "stair": {
+   "source": "stair set-out (rebuilt 2026)",
+   "what": "24 risers of 178 mm, 23 treads",
+   "year": "2018",
+   "file": false,
+   "size": [
+    6.63,
+    2.69,
+    5.34
+   ]
+  },
+  "mall": {
+   "source": "facade of tubes (rebuilt 2026)",
+   "what": "2,364 tubes shown of 9,456",
+   "year": "2018",
+   "file": false,
+   "size": [
+    95.04,
+    6.63,
+    26.0
+   ]
+  },
+  "mecca": {
+   "source": "views to the Haram (rebuilt 2026)",
+   "what": "1,365 rooms, a ray from every other one to the Kaaba",
+   "year": "2016",
+   "file": false,
+   "size": [
+    509.65,
+    227.93,
+    214.43
+   ]
+  },
+  "predock": {
+   "source": "House 12.3dm",
+   "what": "house 12: the roof in 37 contours 20 cm apart over its floor plates",
+   "year": "2021–2025",
+   "file": true,
+   "size": [
+    36.31,
+    45.97,
+    15.48
+   ]
+  },
+  "facades": {
+   "source": "HCP_Carlos Vinocour_Script 04.3dm",
+   "what": "the tower, 26 floor plates and the baked facade",
+   "year": "2023",
+   "file": true,
+   "size": [
+    44.02,
+    41.94,
+    87.68
+   ]
+  },
+  "nya": {
+   "source": "1809120_ TOWN CENTER CV.3dm",
+   "what": "option B: the ribbed canopy along the spine",
+   "year": "2018",
+   "file": true,
+   "size": [
+    117.83,
+    305.09,
+    11.27
+   ]
+  },
+  "tamarindo": {
+   "source": "public 30 m terrain, thesis runoff method (rebuilt 2026)",
+   "what": "1,303 drops run downhill, the 110 longest drawn",
+   "dims": "4.4 × 4.8 km, relief 152 m drawn x6",
+   "year": "2016",
+   "file": false,
+   "size": [
+    4380.4,
+    4794.0,
+    838.64
+   ]
+  },
+  "shade": {
+   "source": "pavilion, rebuilt 2026 from the renders and the module drawings",
+   "what": "210 cast modules in one honeycomb",
+   "year": "2016",
+   "file": false,
+   "scaled": false,
+   "size": [
+    30.0,
+    11.2,
+    3.0
+   ]
+  },
+  "surface": {
+   "source": "Porous field definition, rebuilt 2026",
+   "what": "200 cells: a twelve-point star lofted to a slot",
+   "year": "2024",
+   "file": false,
+   "scaled": false,
+   "size": [
+    300.0,
+    108.24,
+    38.19
+   ]
+  }
+ }
+}

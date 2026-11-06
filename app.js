@@ -12,7 +12,7 @@ const asset = name => `assets/${name}.webp`;
 const srcset = src => { const s=(window.SIZES||{})[src]; return s&&s[3]?[...s[3].map(w=>`assets/w/${w}/${src.slice(7)} ${w}w`),`${src} ${s[0]}w`].join(', '):''; };
 const imgSrc = (src,sizes) => { const set=srcset(src); return `src="${src}"${set?` srcset="${set}" sizes="${sizes}"`:''}`; };
 // a lazy image is sized by its own layout (auto); the first, which loads at once, by the column it usually fills
-const CARD_SIZES='(max-width:390px) 100vw, (max-width:1150px) 50vw, 33vw', LEAD_SIZES='(max-width:700px) 100vw, 75vw', PAGE_SIZES='auto, '+LEAD_SIZES;
+const LEAD_SIZES='(max-width:700px) 100vw, 75vw', PAGE_SIZES='auto, '+LEAD_SIZES;
 // every page goes in through here: images without a srcset get one, the first image loads first (it is usually the
 // largest paint), and a page the deploy already wrote into the HTML is kept as it arrived instead of being built again
 const html=Object.getOwnPropertyDescriptor(Element.prototype,'innerHTML');
@@ -27,19 +27,16 @@ Object.defineProperty(content,'innerHTML',{get(){return html.get.call(this);},se
   return m?tag.replace(m[0],' '+imgSrc(m[1],lead?LEAD_SIZES:PAGE_SIZES)):tag;
  }));
 }});
-const footer = () => `<footer class="footer"><span>Carlos Vinocour · Architecture, computation &amp; ongoing studies</span><a href="mailto:vinocouralvarez@gmail.com">Start a conversation ↗</a></footer>`;
-// 2026-11-02 (Carlos): the name alone, small, over the image; white, or lilac where the cover is light under it (assets/sizes.js)
+const footer = () => `<footer class="foot mono"><span>Carlos Vinocour, architect (CFIA)</span><span>San José, Costa Rica</span><a href="mailto:vinocouralvarez@gmail.com">vinocouralvarez@gmail.com</a></footer>`;
 const cardName = p => p.title.split(' / ')[0];
-const card = p => { const light=((window.SIZES||{})[asset(p.cover)]||[])[2]>.7; /* .7: Porous field (.63) and Capital Group's marble (.69) read better in white (Carlos) */ return `<a class="card ${p.id}${light?' light':''}" href="/work/${p.id}" aria-label="${esc(cardName(p))}"><div class="visual">${p.coverStill?`<picture><source srcset="${asset(p.coverStill)}" media="(prefers-reduced-motion: reduce)">`:''}<img ${imgSrc(asset(p.cover),CARD_SIZES)} alt=""${esc(p.alt)}" loading="lazy" width="600" height="430">${p.coverStill?'</picture>':''}</div><h2 class="card-name">${esc(cardName(p))}</h2></a>`; };
+// since 2026-11-06 the home is the model (model.js: the projects as line models, one turning into the next, with the
+// images below); /architecture and /computation keep a sheet of cards
 function home(filter='all') {
-  const selected = filter === 'all' ? projects : projects.filter(p=>p.tags.includes(filter));
-  const headings = {all:'A collection of spaces, systems,<br>and things in progress.',architecture:'Spaces, landscapes,<br>and the work between.',computation:'Rules, material,<br>and emerging forms.'};
-  const sub = {all:'Selected work & ongoing studies',architecture:'Built-environment projects, proposals & studies',computation:'Computational approaches within architectural work'};
-  const intro=`<header class="intro"><h1>${headings[filter]}</h1><p>${sub[filter]}</p></header>`;
-  content.innerHTML=`${filter==='all'?`<div class="home-top">${intro}${fieldHTML()}</div>`:intro}<section class="gallery" aria-label="${filter==='all'?'Selected work':filter}">${selected.map(card).join('')}</section>${footer()}`;
-  const field=content.querySelector('.home-field');if(field)window.initField(field);
+  if(filter==='all'){content.innerHTML=window.V2.homeHTML()+footer();window.V2.init(content);return;}
+  const headings={architecture:'Spaces, landscapes, and the work between.',computation:'Rules, material, and emerging forms.'};
+  const cards=projects.filter(p=>p.tags.includes(filter)).map(p=>window.V2.cardHTML([p.id,cardName(p),(window.kindOf(p.id)||{}).year||'',p.coverStill||p.cover])).join('');
+  content.innerHTML=`<section class="sheet-page"><p class="code mono">W · ${filter}</p><h1 class="big">${headings[filter]}</h1><div class="cards">${cards}</div></section>${footer()}`;
 }
-const fieldHTML = () => `<figure class="home-field" aria-hidden="true"><div class="field"><canvas></canvas></div></figure>`;
 function figure(name,caption,wide=false) {
   return `<figure class="${wide?'wide':''}"><button class="image-button" data-image="${asset(name)}" data-caption="${esc(caption)}" aria-label="Enlarge image: ${esc(caption)}"><img src="${asset(name)}" alt="${esc(caption)}" loading="lazy"></button><figcaption class="image-caption">${esc(caption)}</figcaption></figure>`;
 }
@@ -78,6 +75,34 @@ function note() {
  content.innerHTML=`<a class="back" href="/notes">← All notes</a><article class="note-body"><p class="eyebrow">Working idea · October 2026</p><h1>Site Studies</h1><p class="lede">What if the first design move was a clearer understanding of the ground?</p><p>I’m exploring the idea of a modular Grasshopper toolkit that brings terrain, trees and planning constraints into a shared site model. The aim is to compare possible locations for a building and make the reasoning visible.</p><div class="study-diagram" aria-label="Proposed workflow"><span>Terrain + trees</span><span>Constraints</span><span>Suitable areas</span><span>Alternatives</span></div><h2>Several components, one conversation</h2><p>Each component would remain useful on its own: reading terrain, mapping slopes, protecting trees, defining constraints or comparing footprints. The architect could change priorities and inspect the consequences.</p><ul><li>Separate mandatory constraints from design preferences.</li><li>Compare alternatives for earthworks, tree preservation and access.</li><li>Show the source and assumptions behind each input.</li></ul><p>This is a project concept, not a released plugin. The first experiment would use a single site with verified inputs and a limited family of footprints.</p><p>It continues a thread from the <a class="text-link" href="/work/tamarindo">Tamarindo water and urbanism study ↗</a>.</p></article>${footer()}`;
 }
 function missing(){content.innerHTML=`<header class="intro"><h1>This page isn’t in the archive.</h1><a class="text-link" href="/">Back to selected work →</a></header>`;}
+// 2026-11-06: each page gets its sheet code (W05 a project, I the index, A1 about, N notes), and a project's page
+// splits in two, its head (the text and the data sheet) held still on the left and the work on the right (theme.css).
+// The blocks are already started (BLOCKS_INIT); moving them keeps their listeners.
+const bar=document.querySelector('[data-bar]'),menuBtn=document.querySelector('[data-menu]');
+function decorate(path){
+ const isHome=path==='/';
+ document.body.classList.toggle('is-home',isHome);bar.classList.toggle('solid',!isHome||scrollY>40);
+ const tag=(el,code)=>{if(el&&code&&!el.querySelector(':scope > .code'))el.insertAdjacentHTML('afterbegin',`<p class="code mono">${code}</p>`);};
+ if(path.startsWith('/work/')){
+  const head=content.querySelector(':scope > header.project-header'),back=content.querySelector(':scope > a.back');
+  tag(head,window.V2.sheet(location.pathname.split('/')[2]));
+  if(head&&!content.querySelector(':scope > .split')){
+   const split=document.createElement('div'),l=document.createElement('aside'),r=document.createElement('div');
+   split.className='split';l.className='split-l';r.className='split-r';l.setAttribute('aria-label','About this project');
+   const rest=[...content.children].filter(e=>e!==head&&e!==back&&!e.matches('footer'));
+   if(back)l.append(back);l.append(head);r.append(...rest);split.append(l,r);content.prepend(split);
+  }
+ }
+ else if(path==='/work')tag(content.querySelector('.ix-page'),'I');
+ else if(path==='/about')tag(content.querySelector('.about'),'A1');
+ else if(path.startsWith('/notes'))tag(content.querySelector('.intro, .note-body'),path==='/notes'?'N':'N1');
+}
+// the bar: clear over the model, solid once the page moves or anywhere else; on a phone its links sit behind Menu
+addEventListener('scroll',()=>bar.classList.toggle('solid',!document.body.classList.contains('is-home')||scrollY>40),{passive:true});
+const setMenu=open=>{document.body.classList.toggle('menu-open',open);menuBtn.setAttribute('aria-expanded',String(open));menuBtn.textContent=open?'Close':'Menu';};
+menuBtn.addEventListener('click',()=>setMenu(!document.body.classList.contains('menu-open')));
+document.querySelector('#main-nav').addEventListener('click',e=>{if(e.target.closest('a'))setMenu(false);});
+addEventListener('keydown',e=>{if(e.key==='Escape'&&document.body.classList.contains('menu-open')){setMenu(false);menuBtn.focus();}});
 let booted=false;
 function route(){
  if(lightbox.open)lightbox.close();
@@ -96,6 +121,7 @@ function route(){
  else{missing();titled('Not found');}
  keep=false;
  window.BLOCKS_INIT&&window.BLOCKS_INIT(content);
+ decorate(path);
  // 2026-11-03: an image still on its way fades in over its ground instead of popping in (a failed one shows anyway);
  // not on a page that arrived written out, whose images may already be on screen
  if(fresh)content.querySelectorAll('img').forEach(img=>{if(img.complete)return;img.classList.add('ld');const done=()=>img.classList.remove('ld');img.addEventListener('load',done,{once:true});img.addEventListener('error',done,{once:true});});
