@@ -68,14 +68,14 @@
    ]
   },
   "facades": {
-   "source": "HCP_Carlos Vinocour_Script 04.3dm",
-   "what": "the tower, 26 floor plates and the baked facade",
+   "source": "script 1, rebuilt 2026 on HCP_Carlos Vinocour.3dm",
+   "what": "416 windows turned up to 48° by the attractor",
    "year": "2023",
-   "file": true,
+   "file": false,
    "size": [
-    44.02,
-    41.94,
-    87.68
+    43.97,
+    43.63,
+    87.91
    ]
   },
   "nya": {
@@ -98,7 +98,7 @@
    "size": [
     4380.4,
     4794.0,
-    838.64
+    838.3
    ]
   },
   "shade": {

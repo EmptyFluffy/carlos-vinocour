@@ -27,28 +27,22 @@
   <h1 class="vh">Carlos Vinocour, architect and computational designer</h1>
   <section class="hero" data-hero aria-roledescription="carousel" aria-label="Selected work, as models">
     <canvas data-canvas aria-hidden="true"></canvas>
-    <img class="photo" data-photo alt="">
     <div class="title">
       <p class="code mono"><span data-code>W01</span><span data-yr></span></p>
-      <h2 class="name" aria-live="polite"><a data-name href="/work/zha"><span>Mohari Villas</span></a></h2>
-      <div class="actions">
+      <div class="headline">
+        <h2 class="name" aria-live="polite"><a data-name href="/work/zha"><span>Mohari Villas</span></a></h2>
         <a class="go" data-open href="/work/zha">View project <span aria-hidden="true">→</span></a>
-        <div class="step" role="group" aria-label="Change project">
-          <button type="button" data-prev aria-label="Previous project">←</button>
-          <span class="mono" data-count>01 / ${pad(ROWS.length)}</span>
-          <button type="button" data-next aria-label="Next project">→</button>
-          <button type="button" class="pause" data-pause aria-pressed="false" aria-label="Pause the slideshow"><i></i></button>
-        </div>
       </div>
     </div>
     <ol class="rail" data-rail aria-label="Projects">${ROWS.map((r, i) => `<li><a href="/work/${r.id}" data-i="${i}">${r.name}<b>${pad(i + 1)}</b></a><i></i></li>`).join('')}</ol>
-    <div class="readout mono">
-      <div class="modes" role="group" aria-label="Display mode">
-        <button type="button" data-mode="model" aria-pressed="true">Model</button>
-        <button type="button" data-mode="photo" aria-pressed="false">Photo</button>
+    <div class="controls mono">
+      <a class="down" href="#work" aria-label="Down to the work"><svg viewBox="0 0 26 16" aria-hidden="true"><path d="M2 3l11 11L24 3"/></svg></a>
+      <div class="step" role="group" aria-label="Change project">
+        <button type="button" data-prev aria-label="Previous project"><svg viewBox="0 0 16 26" aria-hidden="true"><path d="M13 2 3 13l10 11"/></svg></button>
+        <span data-count>01 / ${pad(ROWS.length)}</span>
+        <button type="button" data-next aria-label="Next project"><svg viewBox="0 0 16 26" aria-hidden="true"><path d="M3 2l10 11-10 11"/></svg></button>
+        <button type="button" class="pause" data-pause aria-pressed="false" aria-label="Pause the slideshow"><i></i></button>
       </div>
-      <span class="scale" data-scale><i></i><b></b></span>
-      <span class="src" data-src></span>
     </div>
     <p class="hint mono" data-hint>Drag to orbit</p>
   </section>
@@ -94,10 +88,10 @@
     const items = [...rail.children];
     rail.style.setProperty('--dwell', DWELL + 'ms');
     const nameA = $('[data-name]'), open = $('[data-open]'), code = $('[data-code]'), yr = $('[data-yr]'), count = $('[data-count]');
-    const src = $('[data-src]'), scale = $('[data-scale]'), photo = $('[data-photo]'), pauseB = $('[data-pause]'), hint = $('[data-hint]');
+    const pauseB = $('[data-pause]'), hint = $('[data-hint]');
     const cur = new Float32Array(N * 6), from = new Float32Array(N * 6), sx = new Float32Array(N * 4), dep = new Float32Array(N), bin = new Uint8Array(N);
     let model = null, prev = null, t0 = 0, morphing = false, active = -1, W = 0, H = 0, dpr = 1, rNow = 1, aNow = 1, raf = 0;
-    let yaw = -Math.PI / 4, pitch = ISO, visible = true, held = false, paused = still, next = 0, drag = null, lastBar = '';
+    let yaw = -Math.PI / 4, pitch = ISO, visible = true, held = false, paused = still, next = 0, drag = null;
 
     const size = () => { dpr = Math.min(devicePixelRatio || 1, 2); W = cv.clientWidth; H = cv.clientHeight; cv.width = Math.round(W * dpr); cv.height = Math.round(H * dpr); };
     const ro = new ResizeObserver(size); ro.observe(cv);
@@ -169,13 +163,6 @@
         ctx.strokeStyle = `rgba(18,18,21,${Math.min(1, a * am)})`; ctx.stroke();
       });
       gizmo(W > 820 ? W - 60 : W - 34, W > 820 ? H * 0.2 : H - 34);
-      const ppm = s / model.metres, L = [0.5, 1, 2, 5, 10, 20, 50, 100, 200, 500, 1000, 2000].find((v) => v * ppm >= 56) || 2000;
-      const nts = model.info.scaled === false, key = nts ? 'nts' : `${Math.round(L * ppm)}|${L}`;
-      if (key !== lastBar) {
-        lastBar = key; scale.classList.toggle('nts', nts);
-        scale.style.setProperty('--bar', nts ? '0px' : Math.round(L * ppm) + 'px');
-        scale.querySelector('b').textContent = nts ? 'Not to scale' : L >= 1000 ? `${L / 1000} km` : `${L} m`;
-      }
     }
 
     // the name changes like a split-flap: the old one rises out, the new one rises in. The one sent out is always the
@@ -200,12 +187,9 @@
       if (first) nameA.innerHTML = `<span>${row.name}</span>`; else setName(row.name, `/work/${row.id}`);
       nameA.href = open.href = `/work/${row.id}`; code.textContent = `W${pad(i + 1)}`; yr.textContent = row.yr;
       count.textContent = `${pad(i + 1)} / ${pad(ROWS.length)}`;
-      photo.src = `/assets/${row.cover}.webp`; photo.alt = row.name;
       if (byHand) history.replaceState(history.state, '', `?p=${row.id}`);
       const m = await load(row.id);
       if (active !== i || !cv.isConnected) return;
-      src.classList.add('swap');
-      setTimeout(() => { src.textContent = m.info.source; src.classList.remove('swap'); }, 250);
       from.set(model ? cur : intro(m)); prev = model ? { ...model, r: rNow, alpha: aNow } : m; model = m;
       t0 = performance.now(); morphing = !still; if (still) cur.set(m.p);
       [i - 1, i + 1].forEach((k) => load(ROWS[(k + ROWS.length) % ROWS.length].id));
@@ -224,6 +208,9 @@
     $('[data-prev]').addEventListener('click', () => step(-1));
     $('[data-next]').addEventListener('click', () => step(1));
     pauseB.addEventListener('click', () => setPaused(!paused));
+    // the chevron down scrolls to the work itself: followed as a link, #work would reach app.js as a popstate and
+    // redraw the home at the top
+    $('.down').addEventListener('click', (e) => { e.preventDefault(); root.querySelector('#work').scrollIntoView({ behavior: still ? 'auto' : 'smooth' }); });
     const onKey = (e) => {
       if (e.target.closest('input,textarea,select,dialog') || e.metaKey || e.ctrlKey || e.altKey || !visible) return;
       if (e.key === 'ArrowRight') { e.preventDefault(); step(1); }
@@ -242,10 +229,6 @@
     cv.addEventListener('pointerup', up); cv.addEventListener('pointercancel', up);
     cv.addEventListener('dblclick', () => { yaw = -Math.PI / 4; pitch = ISO; });
     setTimeout(() => hint.classList.add('gone'), 6000);
-    root.querySelectorAll('[data-mode]').forEach((b) => b.addEventListener('click', () => {
-      hero.classList.toggle('is-photo', b.dataset.mode === 'photo');
-      root.querySelectorAll('[data-mode]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
-    }));
     function stop() { cancelAnimationFrame(raf); removeEventListener('keydown', onKey); ro.disconnect(); io.disconnect(); }
 
     const want = new URLSearchParams(location.search).get('p'), start = Math.max(0, ROWS.findIndex((r) => r.id === want));

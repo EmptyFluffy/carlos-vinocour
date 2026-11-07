@@ -9,9 +9,6 @@ W01
 
 Mohari Villas
 View project →
-←
-01 / 11
-→
 Mohari Villas
 01
 Bahías
@@ -34,10 +31,7 @@ Facade studies
 10
 Porous field
 11
-Model
-Photo
-5 M
-CURVES.3DM
+01 / 11
 
 DRAG TO ORBIT
 
