@@ -65,7 +65,7 @@
       <p class="code mono">C1</p>
       <h2 class="big">For collaborations and conversations.</h2>
       <a class="mail" href="mailto:vinocouralvarez@gmail.com">vinocouralvarez@gmail.com</a>
-      <p class="links"><a href="https://www.linkedin.com/in/carlos-vinocour-alvarez-086a88b9" target="_blank" rel="noopener">LinkedIn ↗</a><a href="https://cava.design/" target="_blank" rel="noopener">Studio CAVA ↗</a></p>
+      <p class="links"><a href="https://www.linkedin.com/in/carlos-vinocour-086a88b9" target="_blank" rel="noopener">LinkedIn ↗</a><a href="https://cava.design/" target="_blank" rel="noopener">Studio CAVA ↗</a></p>
     </section>
   </div>`;
 

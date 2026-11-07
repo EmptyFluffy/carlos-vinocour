@@ -33,5 +33,5 @@ I have worked on the architect-of-record team for houses by Zaha Hadid Architect
 ## Contact
 
 - Email: vinocouralvarez@gmail.com
-- LinkedIn: https://www.linkedin.com/in/carlos-vinocour-alvarez-086a88b9
+- LinkedIn: https://www.linkedin.com/in/carlos-vinocour-086a88b9
 - The text of every page in one file: https://carlosvinocour.com/llms-full.txt
