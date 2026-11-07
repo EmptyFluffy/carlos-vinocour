@@ -8,7 +8,7 @@ W01
 2021–2023
 
 Mohari Villas
-View project →
+View project →︎
 Mohari Villas
 01
 Bahías
@@ -68,7 +68,7 @@ La Perla
 2021
 Prizma
 2026
-All 74 projects in the index →
+All 74 projects in the index →︎
 
 A1
 
@@ -83,8 +83,8 @@ C1
 For collaborations and conversations.
 vinocouralvarez@gmail.com
 
-LinkedIn ↗
-Studio CAVA ↗
+LinkedIn ↗︎
+Studio CAVA ↗︎
 
 ---
 
@@ -367,20 +367,20 @@ BEYOND THE ARCHIVE
 
 For architecture projects in Costa Rica, visit Studio CAVA.
 
-Studio CAVA ↗
+Studio CAVA ↗︎
 
 Everything I have worked on since 2013, with or without a page here:
 
-The index →
+The index →︎
 GET IN TOUCH
 
 For collaborations and conversations:
 
-vinocouralvarez@gmail.com ↗
+vinocouralvarez@gmail.com ↗︎
 
 Or on LinkedIn:
 
-Carlos Vinocour ↗
+Carlos Vinocour ↗︎
 ABOUT THIS EDITION
 
 Selected work, 2016 to 2026. Each collaborative project states my role and credits its design architects.
@@ -405,7 +405,7 @@ Site Studies
 
 A modular toolkit for reading a site before placing a building.
 
-↗
+↗︎
 
 ---
 
@@ -413,7 +413,7 @@ A modular toolkit for reading a site before placing a building.
 
 URL: https://carlosvinocour.com/notes/site-studies
 
-← ALL NOTES
+←︎ ALL NOTES
 
 N1
 
@@ -439,7 +439,7 @@ Show the source and assumptions behind each input.
 
 This is a project concept, not a released plugin. The first experiment would use a single site with verified inputs and a limited family of footprints.
 
-It continues a thread from the Tamarindo water and urbanism study ↗.
+It continues a thread from the Tamarindo water and urbanism study ↗︎.
 
 ---
 
@@ -447,7 +447,7 @@ It continues a thread from the Tamarindo water and urbanism study ↗.
 
 URL: https://carlosvinocour.com/work/zha
 
-← SELECTED WORK
+←︎ SELECTED WORK
 
 W01
 
@@ -528,45 +528,45 @@ The live model
 
 ZHCODE delivered each canopy as a live Grasshopper model, one group per canopy, ending in its construction planes, section profiles and beam geometry.
 
-zoom ↗
+zoom ↗︎
 ZHCODE's live model, whole.
-zoom ↗
+zoom ↗︎
 The foot of the two canopy groups: planes, profiles and beam geometry.
 02
 My pass
 
 I baked villa 346 out of the live model and split the canopy linework by layer: centrelines, hoops and section marks, each on its own.
 
-zoom ↗
+zoom ↗︎
 The canopy linework, baked by layer.
-zoom ↗
+zoom ↗︎
 Where the left trunk opens into the canopy.
 03
 Layers to curves
 
 Dynamo read the linked drawing by layer name and drew each canopy layer in Revit as model curves, with bimorphNodes.
 
-zoom ↗
+zoom ↗︎
 Dynamo: layers to curves, whole.
-zoom ↗
+zoom ↗︎
 CAD.CurvesFromCADLayers.
 04
 Curves to beams
 
 Each curve became a structural beam, set on its level and given its glulam framing type.
 
-zoom ↗
+zoom ↗︎
 Dynamo: curves to beams, whole.
-zoom ↗
+zoom ↗︎
 StructuralFraming.BeamByCurve.
 05
 Solids to families
 
 The solids came in from SAT files and synced as Revit families, set up once in the input group, so Revit could schedule and draw them.
 
-zoom ↗
+zoom ↗︎
 Dynamo: SAT solids to families, whole.
-zoom ↗
+zoom ↗︎
 K-Family Insert.
 
 THE LIVE MODEL (ZHCODE)
@@ -605,7 +605,7 @@ Architectural design, drawings, renders, the stair views and the interiors: Zaha
 
 NEXT IN THE COLLECTION
 Papagayo 404 / a house extension
-→
+→︎
 
 ---
 
@@ -613,7 +613,7 @@ Papagayo 404 / a house extension
 
 URL: https://carlosvinocour.com/work/papagayo-404
 
-← SELECTED WORK
+←︎ SELECTED WORK
 
 W12
 
@@ -667,7 +667,7 @@ Architecture: Studio CAVA (Carlos Vinocour, Melissa Araya). Photographs: John Ab
 
 NEXT IN THE COLLECTION
 Military museum / a roof of sails
-→
+→︎
 
 ---
 
@@ -675,7 +675,7 @@ Military museum / a roof of sails
 
 URL: https://carlosvinocour.com/work/museum
 
-← SELECTED WORK
+←︎ SELECTED WORK
 
 W03
 
@@ -707,7 +707,7 @@ The cloth was relaxed in Kangaroo between the masts until each canopy curved two
 
 The competition model in Rhino, the roof over the terraces.
 The canopy mesh as Kangaroo relaxed it between the masts.
-zoom ↗
+zoom ↗︎
 My Grasshopper definition: the ribs, the masts, the canopy relaxed in Kangaroo and the facade. Moved to Kangaroo 2 in 2026.
 
 INSPIRATION
@@ -721,7 +721,7 @@ Competition entry by Carlos Vinocour and Joshua Chaves. Visualization: Emanuel B
 
 NEXT IN THE COLLECTION
 Bahías / thirteen houses on a ridge
-→
+→︎
 
 ---
 
@@ -729,7 +729,7 @@ Bahías / thirteen houses on a ridge
 
 URL: https://carlosvinocour.com/work/predock
 
-← SELECTED WORK
+←︎ SELECTED WORK
 
 W02
 
@@ -753,7 +753,7 @@ Bahías is a community of 13 houses, each on its own site, along a ridge 80 metr
 
 A stone wall Antoine Predock calls the necklace anchors the houses along the ridge lane. Above it the copper roofs float on their own and never touch, one undulating line whose blue-green patina takes the colour of the trees and the sea. The concrete is pigmented with the soil and the beach sand; almost every specimen tree stayed and no boulder was moved.
 
-From Vladimir Belogolovsky's interview with Antoine Predock, ArchDaily, June 2021 ↗
+From Vladimir Belogolovsky's interview with Antoine Predock, ArchDaily, June 2021 ↗︎
 
 Bahías 6 in the forest. Photograph: Alex Fradkin.
 From the drawings to the site.
@@ -816,7 +816,7 @@ Architecture: Antoine Predock Architect. Architect of record: Garnier Arquitecto
 
 NEXT IN THE COLLECTION
 Capital Group / an elliptical stair
-→
+→︎
 
 ---
 
@@ -824,7 +824,7 @@ Capital Group / an elliptical stair
 
 URL: https://carlosvinocour.com/work/stair
 
-← SELECTED WORK
+←︎ SELECTED WORK
 
 W04
 
@@ -877,7 +877,7 @@ Another view.
 
 THE SET-OUT, REBUILT
 
-zoom ↗
+zoom ↗︎
 The set-out definition, rebuilt in 2026: seven groups, from the height to the fabricator's table.
 
 ONE INPUT, THREE HEIGHTS
@@ -898,36 +898,36 @@ From the height to the risers
 
 The floor-to-floor height is divided by the maximum riser, 7 inches, and rounded up: that is the number of risers. The riser is the height over that number, the treads are one fewer, and the run on the walkline is the treads times an 11-inch going.
 
-zoom ↗
+zoom ↗︎
 The definition, whole.
-zoom ↗
+zoom ↗︎
 Groups 01 and 02: the inputs, then the risers from the height.
 02
 The run finds its own end
 
 The walkline is an ellipse. Measured along it, the length of the run gives the point where the stair stops, so a taller floor carries the stair further round. The run is then divided into equal goings.
 
-zoom ↗
+zoom ↗︎
 The definition, whole.
-zoom ↗
+zoom ↗︎
 Group 03: the ellipse, measured to the length of the run.
 03
 Edges, treads and risers
 
 The walkline sits 12 inches from the inner edge. Both edges are offset from it, each division is carried across to them as a tread line, and each tread is lifted one riser above the last.
 
-zoom ↗
+zoom ↗︎
 The definition, whole.
-zoom ↗
+zoom ↗︎
 Groups 04 and 05: the tread lines in plan, then the treads and risers.
 04
 Guard, handrail and the table
 
 The nosings along each edge make the stringers. The handrail follows them 42 inches up, with a baluster every 4 inches, and the last group lists every nosing, inner and outer, in x, y and z for the fabricator.
 
-zoom ↗
+zoom ↗︎
 The definition, whole.
-zoom ↗
+zoom ↗︎
 Groups 06 and 07: the guard, then the set-out table.
 The set-out in plan at 14 ft: the two edges and the 24 tread lines.
 
@@ -935,7 +935,7 @@ Architecture and interiors: Gensler New York. Renderings: Gensler. Built. The se
 
 NEXT IN THE COLLECTION
 Mall of the Emirates / a facade as a field
-→
+→︎
 
 ---
 
@@ -943,7 +943,7 @@ Mall of the Emirates / a facade as a field
 
 URL: https://carlosvinocour.com/work/mall
 
-← SELECTED WORK
+←︎ SELECTED WORK
 
 W05
 
@@ -986,7 +986,7 @@ A blue wave
 
 THE FACADE SCRIPT, REBUILT
 
-zoom ↗
+zoom ↗︎
 The facade script, rebuilt in 2026: a tube at every node of the facade, its depth from noise, a rise around each screen and no tubes inside it.
 The tube field in elevation, 9,632 tubes around five screens.
 The facade, pinched in plan at the centre.
@@ -1025,7 +1025,7 @@ Ideas competition: Gensler, 2018. Images: Gensler. The facade script rebuilt by 
 
 NEXT IN THE COLLECTION
 Jabal Omar / a hotel facing the Haram
-→
+→︎
 
 ---
 
@@ -1033,7 +1033,7 @@ Jabal Omar / a hotel facing the Haram
 
 URL: https://carlosvinocour.com/work/mecca
 
-← SELECTED WORK
+←︎ SELECTED WORK
 
 W06
 
@@ -1083,7 +1083,7 @@ The hotel and residential towers at dusk.
 
 THE VIEW SCRIPT, REBUILT
 
-zoom ↗
+zoom ↗︎
 The view script, rebuilt in 2026 on simplified massing: rays from 1,365 rooms to the Kaaba and the courtyard, a score for each room, then its opening and balcony.
 The cores, tower by tower.
 Rays from each room to the Kaaba: gold where they get through, red where something is in the way.
@@ -1092,7 +1092,7 @@ Invited competition: Gensler, 2016. The view script rebuilt by Carlos Vinocour i
 
 NEXT IN THE COLLECTION
 NYA / a growing town
-→
+→︎
 
 ---
 
@@ -1100,7 +1100,7 @@ NYA / a growing town
 
 URL: https://carlosvinocour.com/work/nya
 
-← SELECTED WORK
+←︎ SELECTED WORK
 
 W07
 
@@ -1132,7 +1132,7 @@ Mixed-use masterplan study, Liberia, Costa Rica.
 
 NEXT IN THE COLLECTION
 Living system
-→
+→︎
 
 ---
 
@@ -1140,7 +1140,7 @@ Living system
 
 URL: https://carlosvinocour.com/work/housing
 
-← SELECTED WORK
+←︎ SELECTED WORK
 
 W13
 
@@ -1204,7 +1204,7 @@ Competition entry, social housing.
 
 NEXT IN THE COLLECTION
 Tamarindo 2050 / water as an urban framework
-→
+→︎
 
 ---
 
@@ -1212,7 +1212,7 @@ Tamarindo 2050 / water as an urban framework
 
 URL: https://carlosvinocour.com/work/tamarindo
 
-← SELECTED WORK
+←︎ SELECTED WORK
 
 W08
 
@@ -1242,7 +1242,7 @@ THE RUNOFF AND SLOPE DEFINITION
 
 Rain is followed down the terrain: 1,303 points scattered over it are moved down and pulled back onto the surface, 200 times in a loop, and their paths are the runoff. The same mesh is coloured by its slope.
 
-zoom ↗
+zoom ↗︎
 My Grasshopper definition: the runoff loop and the slope of the mesh.
 
 READING THE WATER
@@ -1294,7 +1294,7 @@ Thesis by Carlos Vinocour, Universidad Veritas, 2017.
 
 NEXT IN THE COLLECTION
 La Perla / reading the land first
-→
+→︎
 
 ---
 
@@ -1302,7 +1302,7 @@ La Perla / reading the land first
 
 URL: https://carlosvinocour.com/work/la-perla
 
-← SELECTED WORK
+←︎ SELECTED WORK
 
 W14
 
@@ -1370,7 +1370,7 @@ Studio CAVA (Carlos Vinocour, Melissa Araya). A master plan study, not built; th
 
 NEXT IN THE COLLECTION
 Prizma / a studio as a system
-→
+→︎
 
 ---
 
@@ -1378,7 +1378,7 @@ Prizma / a studio as a system
 
 URL: https://carlosvinocour.com/work/prizma
 
-← SELECTED WORK
+←︎ SELECTED WORK
 
 W15
 
@@ -1403,30 +1403,24 @@ Most studios decide whether to take a new project with a spreadsheet and a feeli
 
 The model is deterministic. Hours are derived from fees, phases and rates, so a principal can test a decision before making it: another hotel, a resignation, a different fee.
 
-Open the demo ↗
-heyprizma.com ↗
+Open the demo ↗︎
+heyprizma.com ↗︎
 
 The whole firm on one canvas: staff, projects, teams by typology and the studio, with notes beside the model.
 A team selected: its multiplier, profit, utilisation and stability margin.
 Effort EQ: one person's hours slid between projects; burn, room left and fees recalculate through every team it touches.
-The product page.
+A project before it is signed.
 
-heyprizma.com explains the model to the principal who would buy it: the five questions it answers, why it is not a project management tool, and the arithmetic underneath.
+A new project is laid out from its fee, typology and dates: the phases come as a Gantt from benchmark splits, and any bar or its edges can be dragged. The effort it adds is then drawn over the office's own load, week by week, team by team, against capacity, so the question of whether to take it is answered before the contract.
 
-heyprizma.com: the opening, with a live model you can pull.
-
-HEYPRIZMA.COM
-
-01
-The five questions a principal asks
-02
-The model is the workspace
+New project: the phase timeline, drawn from the fee, the typology and the dates; it ends at CDs issued, with construction after.
+Effort and capacity: the firm before and with the project, office projects and this one, against capacity; dragging the flags reschedules it and the effort recomputes from the dates.
 
 React and TypeScript. The canvas and the model are written from scratch, without a graph library; the model is its own tested package, and a firm brief exports to Excel.
 
 NEXT IN THE COLLECTION
 Porous field / a surface study
-→
+→︎
 
 ---
 
@@ -1434,7 +1428,7 @@ Porous field / a surface study
 
 URL: https://carlosvinocour.com/work/surface
 
-← SELECTED WORK
+←︎ SELECTED WORK
 
 W11
 
@@ -1494,13 +1488,13 @@ Hexagon cells
 
 Hexagon Cells divides the surface into 44 by 36 cells. Each cell is exploded into its edges, and a cull pattern keeps only the cells with six, so no broken hexagon reaches the border.
 
-Open detail ↗
-View complete script ↗
-Next region →
+Open detail ↗︎
+View complete script ↗︎
+Next region →︎
 Original script overview
 CONTINUE EXPLORING
 Facade studies / one volume, four systems
-→
+→︎
 
 ---
 
@@ -1508,7 +1502,7 @@ Facade studies / one volume, four systems
 
 URL: https://carlosvinocour.com/work/facades
 
-← SELECTED WORK
+←︎ SELECTED WORK
 
 W10
 
@@ -1536,10 +1530,10 @@ The same volume supports several approaches to its envelope. Each selected defin
 
 Original script labels are retained throughout this selection.
 
-Script 0 ↓
-Script 1 ↓
-Script 2 ↓
-Script 4 ↓
+Script 0 ↓︎
+Script 1 ↓︎
+Script 2 ↓︎
+Script 4 ↓︎
 Script 0
 Subdivision & an attractor
 Script 1
@@ -1587,9 +1581,9 @@ The selected surfaces are given compatible directions and subdivided into a UV g
 
 List Item · Reverse Surface Direction · Divide Domain² · Isotrim
 
-Open detail ↗
-View complete script ↗
-Next step →
+Open detail ↗︎
+View complete script ↗︎
+Next step →︎
 Original script overview
 
 SCRIPT 1
@@ -1618,9 +1612,9 @@ The input surfaces are subdivided. Deconstruct Brep exposes the edges of each pa
 
 Divide Domain² · Isotrim · Deconstruct Brep · List Item
 
-Open detail ↗
-View complete script ↗
-Next step →
+Open detail ↗︎
+View complete script ↗︎
+Next step →︎
 Original script overview
 
 SCRIPT 2
@@ -1649,9 +1643,9 @@ The upper preparation branch evaluates a reference surface and moves selected ge
 
 Surface Closest Point · Evaluate Surface · Amplitude · Move · Divide Curve
 
-Open detail ↗
-View complete script ↗
-Next step →
+Open detail ↗︎
+View complete script ↗︎
+Next step →︎
 Original script overview
 
 SCRIPT 4
@@ -1682,9 +1676,9 @@ Faces and edges are extracted from the source geometry. Domain divisions and Iso
 
 Deconstruct Brep · Divide Domain² · Isotrim · Surface Split
 
-Open detail ↗
-View complete script ↗
-Next step →
+Open detail ↗︎
+View complete script ↗︎
+Next step →︎
 Original script overview
 
 GEOMETRIC FEEDBACK · SCRIPT 0
@@ -1695,13 +1689,13 @@ Floor areas are measured and labeled directly in the model. The original outputs
 
 Floor-area annotations on the study geometry.
 Floor sequence and surface-area labels.
-Inspect the area calculation ↗
+Inspect the area calculation ↗︎
 
 Values shown are the outputs captured in the original study, not a new calculation.
 
 Study and diagrams by Carlos Vinocour. This walkthrough explains the operations visible in the supplied definitions and screenshots. The geometric studies do not constitute environmental or structural performance assessments.
 
-More computational work →
+More computational work →︎
 
 ---
 
@@ -1709,7 +1703,7 @@ More computational work →
 
 URL: https://carlosvinocour.com/work/shade
 
-← SELECTED WORK
+←︎ SELECTED WORK
 
 W09
 
@@ -1765,4 +1759,4 @@ Academic work by Carlos Vinocour.
 
 NEXT IN THE COLLECTION
 Mohari Villas / complex geometries
-→
+→︎

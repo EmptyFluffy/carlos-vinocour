@@ -20,6 +20,8 @@ let keep=false;
 Object.defineProperty(content,'innerHTML',{get(){return html.get.call(this);},set(v){
  if(keep){keep=false;return;}
  let first=true;
+ // 2026-11-07: every arrow asks for its text form (U+FE0E), or a phone may draw ↗ as an emoji
+ v=v.replace(/([←→↑↓↗↘↖↙↔])(?!\uFE0E)/g,'$1\uFE0E');
  html.set.call(this,v.replace(/<img\b[^>]*>/g,tag=>{
   const lead=first;first=false;
   if(lead)tag=tag.replace(' loading="lazy"',' fetchpriority="high"');
