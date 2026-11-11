@@ -94,6 +94,8 @@ a:focus-visible,button:focus-visible,.hero:focus-visible{outline:2px solid var(-
 
 /* below the model: sheets */
 .sec{padding:120px var(--pad) 0;max-width:1520px}
+/* 2026-11-11: the work grid spans the bar's width, so on a large screen the cards grow instead of leaving the right half empty (Carlos) */
+#work.sec{max-width:none}
 .sec>.code{margin-bottom:18px}
 .big{margin:0 0 48px;font-weight:540;font-stretch:110%;font-size:clamp(26px,2.7vw,44px);line-height:1.08;letter-spacing:-.025em;max-width:22ch;text-wrap:balance}
 #about .big{max-width:30ch}
